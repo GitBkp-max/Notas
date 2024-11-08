@@ -8,5 +8,10 @@
   "obsidian-living-graph",
   "colored-tags",
   "obsidian-full-calendar",
-  "calendar"
+  "calendar",
+  "mermaid-tools",
+  "dashboard-navigator",
+  "diagram-zoom-drag",
+  "image-converter",
+  "canvas-node-screenshot"
 ]

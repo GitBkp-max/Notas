@@ -4,7 +4,7 @@
   "trashOption": "local",
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./attachments",
+  "attachmentFolderPath": "Recursos/Anexos",
   "promptDelete": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "0New"

@@ -9,7 +9,7 @@ Aqui está um plano de ação para aprender e criar um **chat em tempo real** us
 ### Fase 1: Preparação e Fundamentos (Dias 1-7)
 **Objetivo:** Entender os conceitos básicos de WebSockets e configuração de ambiente.
 1. **Introdução a WebSockets:**
-   - O que são WebSockets?
+   - [[O que são WebSockets]]
    - Diferença entre WebSockets e HTTP.
    - Vantagens do uso de WebSockets.
    - [Referência: MDN WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
@@ -24,7 +24,7 @@ Aqui está um plano de ação para aprender e criar um **chat em tempo real** us
    - Criar um servidor básico usando Node.js e `Socket.io`.
    - Conectar um cliente a esse servidor.
    - Testar comunicação de mensagens básicas entre cliente e servidor.
-   - [Exemplo básico: https://socket.io/get-started/chat](https://socket.io/get-started/chat)
+   - [Exemplo básico: https://socket.io/get-started/chat](https://socket.io/get-started/chat) -> [[Socket.io chat|Link Interno]]
 
 ### Fase 2: Funcionalidades de Chat (Dias 8-15)
 **Objetivo:** Implementar funcionalidades fundamentais para o chat em tempo real.
