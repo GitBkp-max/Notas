@@ -9,7 +9,7 @@ tags:
 
 Esse template configura o monitoramento de serviços do sistema via Zabbix, utilizando SNMP e um script cron. A lógica por trás do template é a seguinte:
 
-- **Cron job (Tarefa agendada):** A tarefa `crontab` é executada a cada minuto (`*/1 * * * *`). Ela coleta o estado de todos os serviços do sistema via `systemctl list-units` e salva o resultado em formato JSON no arquivo `/var/lib/snmp/output_files/systemctl.json`. Assim, a cada minuto, os estados dos serviços são atualizados nesse arquivo.
+- **[[Cron]] job (Tarefa agendada):** A tarefa `crontab` é executada a cada minuto (`*/1 * * * *`). Ela coleta o estado de todos os serviços do sistema via `systemctl list-units` e salva o resultado em formato JSON no arquivo `/var/lib/snmp/output_files/systemctl.json`. Assim, a cada minuto, os estados dos serviços são atualizados nesse arquivo.
   
 - **Diretório de saída:** O diretório `/var/lib/snmp/output_files` é criado para armazenar o arquivo JSON gerado pelo cron job. Esse arquivo contém uma listagem dos serviços, permitindo que o Zabbix tenha acesso a esses dados.
   

@@ -6,7 +6,7 @@ tags:
 A programação de escaneamentos regulares é uma prática recomendada para manter a segurança do seu sistema Linux com ClamAV. Isso envolve agendar automaticamente escaneamentos periódicos do sistema de arquivos em busca de ameaças de malware. Aqui estão algumas explicações mais detalhadas sobre como configurar essa programação:
 
 ---
-1. **Usando Cron**: No Linux, o cron é uma ferramenta de agendamento que permite executar tarefas agendadas em momentos específicos, como escaneamentos de vírus. O cron permite que você defina cronogramas detalhados, incluindo dias específicos da semana, horas e minutos.
+1. **Usando [[Cron]]**: No Linux, o cron é uma ferramenta de agendamento que permite executar tarefas agendadas em momentos específicos, como escaneamentos de vírus. O cron permite que você defina cronogramas detalhados, incluindo dias específicos da semana, horas e minutos.
 2. **Editando o crontab**: Para configurar um escaneamento regular com o ClamAV usando o cron, você pode editar o arquivo crontab, que contém as entradas de cron agendadas. Você pode usar o comando `crontab -e` para editar o crontab do usuário atual. As entradas no crontab seguem um formato específico que especifica o momento em que a tarefa deve ser executada e o comando a ser executado.
 3. **Exemplo de configuração de escaneamento regular**: Aqui está um exemplo de como você pode configurar um escaneamento regular do sistema de arquivos usando o cron e o comando `clamscan`:
 

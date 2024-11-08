@@ -33,4 +33,4 @@ crontab -e
 extend systemctl_state /usr/bin/cat /var/lib/snmp/output_files/systemctl.json
 ```
 
-[[Explicação do template Zabbix|Explicação desse template feito pelo GPT]]s
+[[Explicação do template Zabbix|Explicação desse template feito pelo GPT]]

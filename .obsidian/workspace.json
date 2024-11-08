@@ -88,8 +88,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
             }
           },
           {
@@ -184,8 +184,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
             }
           },
           {
@@ -194,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
+                "file": "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -222,7 +222,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de 2094 - Criar Template de monitoramento do SMART Estado de Discos"
+              "title": "Gráfico de Explicação do template Zabbix"
             }
           },
           {
@@ -251,19 +251,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian-kanban:Criar um novo quadro": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "workspaces:Gerenciar leiautes da área de trabalho": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "templater-obsidian:Templater": false
+      "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
   "floating": {
@@ -306,10 +300,10 @@
       }
     ]
   },
-  "active": "d1e1b773f31bb76a",
+  "active": "2f798b6b458f5b9f",
   "lastOpenFiles": [
-    "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
     "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
+    "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
     "Áreas/Financias/2024/Outubro.md",
     "Áreas/Financias/Outubro.md",
     "Áreas/Financias/2024",
