@@ -1,0 +1,359 @@
+{
+  "main": {
+    "id": "11d00b0a95f66d88",
+    "type": "split",
+    "children": [
+      {
+        "id": "174a4838f209c646",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1e1b773f31bb76a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2094 - Criar Template de monitoramento do SMART Estado de Discos"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7085c6b75b9d393c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc20b324a7b36ba0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44dd2121f304cd1c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "8518da7bb32a6dda",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "94edc9d0a0fefe8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "74c6539272e83813",
+        "type": "tabs",
+        "dimension": 32.36434108527132,
+        "children": [
+          {
+            "id": "77fff7004eb6f5d1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          },
+          {
+            "id": "f20740d8d3509dc9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "ba308e20aed6c7ae",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "100ddb3535a02607",
+        "type": "tabs",
+        "dimension": 33.33333333333333,
+        "children": [
+          {
+            "id": "d8f41e5cc8b94f95",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md"
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de 2094 - Criar Template de monitoramento do SMART Estado de Discos"
+            }
+          },
+          {
+            "id": "6ee8b9b01439bfc8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "bbc32138bcd45ea2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "94e6c53c1d208116",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "0abdfcaf5bea1227",
+        "type": "tabs",
+        "dimension": 34.30232558139535,
+        "children": [
+          {
+            "id": "5e573794e170b2f8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "3ae196bb9138d274",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": true,
+                  "showAttachments": true,
+                  "hideUnresolved": true,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 0.661849957374254,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.359951465723771,
+                  "repelStrength": 15.33,
+                  "linkStrength": 0.12,
+                  "linkDistance": 94,
+                  "scale": 0.16348370567220566,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Gráfico de 2094 - Criar Template de monitoramento do SMART Estado de Discos"
+            }
+          },
+          {
+            "id": "681946b4bd3b4128",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 377.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-kanban:Criar um novo quadro": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "workspaces:Gerenciar leiautes da área de trabalho": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "floating": {
+    "id": "580636cd4837ae72",
+    "type": "floating",
+    "children": [
+      {
+        "id": "3d3890d9f44bced3",
+        "type": "window",
+        "children": [
+          {
+            "id": "66395ca304dbc3e6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2f798b6b458f5b9f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Explicação do template Zabbix"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 344,
+        "y": 223,
+        "width": 1298,
+        "height": 720,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "d1e1b773f31bb76a",
+  "lastOpenFiles": [
+    "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
+    "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
+    "Áreas/Financias/2024/Outubro.md",
+    "Áreas/Financias/Outubro.md",
+    "Áreas/Financias/2024",
+    "0New/HomePage.md",
+    "Áreas/Financias",
+    "Calendario/2024-11-06 Entrevista Técnica - Vaga técnico de suporte 2º nível pleno.md",
+    "Calendario/2024-11-07 Bate-papo com Gestão de Pessoas, pela empresa Lanlink..md",
+    "0New/Sem título.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-05 DEV - 2094 - Estudo.md",
+    "Recursos/GPT/chat em tempo real.md",
+    "Recursos/GPT/Aprendizagem de linguagem.md",
+    "Áreas/Projetos/Projetos Backend JS.md",
+    "Áreas/Projetos/Gerenciador de Email.md",
+    "Áreas/Projetos/Coletor de info de PC.md",
+    "Artigos/Grafana.md",
+    "Recursos/GPT/Editores .md",
+    "Recursos/GPT/Dicas para estudo de Zabbix e Grafana.md",
+    "Recursos/Obisidian/Dataview - maneiras de usar.md",
+    "Recursos/Obisidian/Callout.md",
+    "Recursos/Wiki/DBA/Troubleshooting e Resolução de Problemas.md",
+    "Recursos/Wiki/DBA/Sistemas de Gerenciamento de Banco de Dados (SGBD).md",
+    "Recursos/Wiki/DBA/Segurança de Dados e Regulamentações de Conformidade.md",
+    "Recursos/Wiki/DBA/Replicação e Alta Disponibilidade.md",
+    "Recursos/Wiki/DBA/Modelagem de Dados.md",
+    "Recursos/Wiki/DBA/Backup e Recuperação.md",
+    "Recursos/Wiki/DBA/Conhecimentos tecnicos do DBA.md",
+    "Recursos/Wiki/Programação/attachments/1713783761847.jpeg",
+    "Artigos/big data resumão.canvas",
+    "Recursos/Wiki/Programação/attachments/01 A forked commit history.webp",
+    "Recursos/Wiki/Programação/attachments/Pasted image 20241107103128.png",
+    "Áreas/Trabalho/NetTurbo/DEV/2094",
+    "0New",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias",
+    "Calendario",
+    "Áreas/Trabalho/NetTurbo/DEV",
+    "Recursos/Wiki/DBA/SQL/01_Comandos",
+    "Recursos/Wiki/DBA/SQL",
+    "Recursos/Wiki/DBA",
+    "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240609183607.png",
+    "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426202110.png",
+    "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426141607.png",
+    "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426141427.png",
+    "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240424164850.png",
+    "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240424182201.png",
+    "Sem título.canvas"
+  ]
+}

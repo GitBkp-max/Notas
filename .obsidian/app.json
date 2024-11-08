@@ -1,0 +1,11 @@
+{
+  "showLineNumber": false,
+  "readableLineLength": false,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./attachments",
+  "promptDelete": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "0New"
+}

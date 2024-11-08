@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:Artigos  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Recursos/GPT  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:Recursos/Obisidian  ",
+      "color": {
+        "a": 1,
+        "rgb": 7417074
+      }
+    },
+    {
+      "query": "path:Recursos/Wiki  ",
+      "color": {
+        "a": 1,
+        "rgb": 13592548
+      }
+    },
+    {
+      "query": "path:Áreas/Projetos  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Áreas/Saude  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:Áreas/Trabalho/NetTurbo  ",
+      "color": {
+        "a": 1,
+        "rgb": 65284
+      }
+    },
+    {
+      "query": "path:\"[Modelos]\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "path:Calendario  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1.73124467178176,
+  "collapse-forces": true,
+  "centerStrength": 0.359098653505963,
+  "repelStrength": 15.33,
+  "linkStrength": 0.12,
+  "linkDistance": 94,
+  "scale": 0.039284407942804106,
+  "close": true
+}

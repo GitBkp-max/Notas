@@ -1,0 +1,54 @@
+{
+  "logoType": "oldLogo",
+  "logo": {
+    "lucideIcon": "",
+    "imagePath": "",
+    "imageLink": ""
+  },
+  "logoScale": 1.2,
+  "iconColorType": "default",
+  "wordmark": "Obsidian",
+  "customFont": "interfaceFont",
+  "fontSize": "4em",
+  "fontColorType": "default",
+  "fontWeight": 600,
+  "maxResults": 5,
+  "showbookmarkedFiles": true,
+  "showRecentFiles": false,
+  "maxRecentFiles": 5,
+  "storeRecentFile": false,
+  "showPath": true,
+  "selectionHighlight": "default",
+  "showShortcuts": true,
+  "markdownOnly": false,
+  "unresolvedLinks": false,
+  "recentFilesStore": [
+    {
+      "filepath": "Kanban sem título.md",
+      "timestamp": 1730309887110
+    },
+    {
+      "filepath": "_Manuais/Integração ao filtro de tempo do Grafana na sua consulta SQL.md",
+      "timestamp": 1730309521480
+    },
+    {
+      "filepath": "_Manuais/NOT IN - IN.md",
+      "timestamp": 1730309521070
+    },
+    {
+      "filepath": "_Manuais/SQL JOIN's.md",
+      "timestamp": 1730309520703
+    },
+    {
+      "filepath": "_Wiki/Erro Criar conta local Windows.md",
+      "timestamp": 1730309513421
+    }
+  ],
+  "bookmarkedFileStore": [],
+  "searchDelay": 0,
+  "replaceNewTabs": true,
+  "newTabOnStart": true,
+  "closePreviousSessionTabs": true,
+  "omnisearch": false,
+  "showOmnisearchExcerpt": true
+}

@@ -1,0 +1,21 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "#47b300",
+      "directory": "Áreas/Trabalho/NetTurbo/Atividades diarias"
+    },
+    {
+      "type": "local",
+      "color": "#bd0000",
+      "directory": "Calendario"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": false
+}
