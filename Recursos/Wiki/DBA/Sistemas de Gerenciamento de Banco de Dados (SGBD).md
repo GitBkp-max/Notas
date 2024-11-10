@@ -48,7 +48,7 @@ _Propriedade Básica da Transação_
 |                                                                                                                                                  |                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
 | **SGBDR**                                                                                                                                        | **SGBD NoSQL**                                                                        |
-| - Microsoft SQL Server<br>- [[MySQL]]<br>- PostgreSQL<br>- Oracle DATABASE<br>- Firebird<br>- Microsoft ACCESS<br>- LibreOffrice BASE<br>- dBase | - MongoDB<br>- Redis<br>- Cassandra<br>- Neo4j<br>- Amazon DynamoDB<br>- Apache HBase |
+| - Microsoft SQL Server<br>- [[Artigos/MySQL]]<br>- PostgreSQL<br>- Oracle DATABASE<br>- Firebird<br>- Microsoft ACCESS<br>- LibreOffrice BASE<br>- dBase | - MongoDB<br>- Redis<br>- Cassandra<br>- Neo4j<br>- Amazon DynamoDB<br>- Apache HBase |
 
 ---
 

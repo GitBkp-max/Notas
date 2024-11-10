@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "89f4ed4bd4d818ce",
+        "id": "71a0ed054e0b197b",
         "type": "tabs",
         "children": [
           {
-            "id": "96697b33e713a94c",
+            "id": "dd3ee0571b806166",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -65,7 +65,7 @@
       {
         "id": "74c6539272e83813",
         "type": "tabs",
-        "dimension": 32.36434108527132,
+        "dimension": 32.37311385459534,
         "children": [
           {
             "id": "f20740d8d3509dc9",
@@ -107,7 +107,7 @@
       {
         "id": "100ddb3535a02607",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 29.218106995884774,
         "children": [
           {
             "id": "d8f41e5cc8b94f95",
@@ -180,13 +180,12 @@
               "title": "Procurar"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "0abdfcaf5bea1227",
         "type": "tabs",
-        "dimension": 34.30232558139535,
+        "dimension": 38.40877914951989,
         "children": [
           {
             "id": "5e573794e170b2f8",
@@ -222,11 +221,11 @@
                   "nodeSizeMultiplier": 0.661849957374254,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
-                  "centerStrength": 0.346174092752314,
+                  "centerStrength": 0.337562055630846,
                   "repelStrength": 18.5,
                   "linkStrength": 0.92,
                   "linkDistance": 47,
-                  "scale": 5.505326024634474,
+                  "scale": 0.24696873902523594,
                   "close": true
                 }
               },
@@ -258,15 +257,21 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
-  "active": "3ae196bb9138d274",
+  "active": "44dd2121f304cd1c",
   "lastOpenFiles": [
+    "Recursos/Wiki/Linux/php para phpmyadmin.md",
+    "Recursos/Wiki/Linux/instalar phpmyadmin.md",
+    "Recursos/Wiki/Linux/MySQL.md",
+    "0New/Sem título.md",
+    "Artigos/Prometheus.md",
+    "Recursos/Wiki/Monitoramento/fazendo coleta smart de disco no grafana com Node-Exporter.md",
+    "Artigos/Grafana.md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-05 DEV - 2094 - Estudo.md",
     "Recursos/Wiki/Programação/Adicionando chave SSH no GitHub.md",
     "Recursos/Obisidian/Callout.md",
     "0New/Nova nota modelo.md",
     "0New",
     "Artigos/O que são WebSockets.md",
-    "Artigos/Prometheus.md",
     "Artigos/Socket.io chat.md",
     "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
     "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
@@ -282,13 +287,7 @@
     "Áreas/Projetos/Projetos Backend JS.md",
     "Áreas/Projetos/Gerenciador de Email.md",
     "Áreas/Projetos/Coletor de info de PC.md",
-    "Artigos/Grafana.md",
     "Recursos/GPT/Editores .md",
-    "Recursos/GPT/Dicas para estudo de Zabbix e Grafana.md",
-    "Recursos/Obisidian/Dataview - maneiras de usar.md",
-    "Recursos/Wiki/DBA/Troubleshooting e Resolução de Problemas.md",
-    "Recursos/Wiki/DBA/Sistemas de Gerenciamento de Banco de Dados (SGBD).md",
-    "Recursos/Wiki/DBA/Segurança de Dados e Regulamentações de Conformidade.md",
     "Recursos/Wiki/Programação/attachments/1713783761847.jpeg",
     "Artigos/big data resumão.canvas",
     "Recursos/Wiki/Programação/attachments/01 A forked commit history.webp",

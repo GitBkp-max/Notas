@@ -9,7 +9,7 @@ Um **Administrador de Banco de Dados (DBA)** é encarregado de gerenciar e garan
 
 ## 1. [[Sistemas de Gerenciamento de Banco de Dados (SGBD)]]:
 
-- Domínio dos principais sistemas de gerenciamento de banco de dados, como [[MySQL]], [[PostgreSQL]], [[Oracle]], [[SQL Server]], [[MongoDB]], entre outros.
+- Domínio dos principais sistemas de gerenciamento de banco de dados, como [[Artigos/MySQL]], [[PostgreSQL]], [[Oracle]], [[SQL Server]], [[MongoDB]], entre outros.
 - Compreensão das distinções entre bancos de dados relacionais e não relacionais.
 - Capacidade para instalar, configurar e manter diferentes [[Sistemas de Gerenciamento de Banco de Dados (SGBD)]]s.
 

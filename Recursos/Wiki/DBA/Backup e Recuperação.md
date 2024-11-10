@@ -17,7 +17,7 @@ aliases:
 
 ## BACKUP
 
-- Existe duas formas de realizar o **backup** e a **restauração** de banco de dados no [[MySQL]]:
+- Existe duas formas de realizar o **backup** e a **restauração** de banco de dados no [[Artigos/MySQL]]:
     - **Manual pelo [[Sistemas de Gerenciamento de Banco de Dados (SGBD)]]**
     - **Linha de comando no Sistema Operacional**
 - Por linha de comando é possível criar um _script_ no Sistema Operacional para executar o backup em períodos determinados de forma automática
@@ -90,7 +90,7 @@ Para criar um script de backup automatizado no MySQL no Linux, você pode seguir
 
 1. **Crie um script de backup**: Crie um novo arquivo de script em shell (por exemplo, `backup_mysql.sh`) usando um editor de texto como o `nano` ou `vim`. Você pode armazenar este script em um local seguro, como `/usr/local/bin/`.
     
-2. **Edite o script**: Adicione os comandos necessários para realizar o backup do banco de dados [[MySQL]]. Você pode usar o utilitário `mysqldump` para isso. Aqui está um exemplo de script básico para fazer um backup de todos os bancos de dados MySQL:
+2. **Edite o script**: Adicione os comandos necessários para realizar o backup do banco de dados [[Artigos/MySQL]]. Você pode usar o utilitário `mysqldump` para isso. Aqui está um exemplo de script básico para fazer um backup de todos os bancos de dados MySQL:
     
 
 ```

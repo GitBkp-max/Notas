@@ -45,6 +45,176 @@ Essa consulta mostra o percentual de espaço livre no sistema de arquivos, exclu
 
 Mais tipos de [[monitorar o estado do disco (incluindo capacidade, utilização e saúde)|monitoramento de disco]]
 
+### Instalando Prometheus
+#### Passo 1: Baixar a versão mais recente do Prometheus
+
+Primeiro, você precisa baixar a versão mais recente do Prometheus a partir do site oficial.
+
+1. Acesse o diretório temporário:
+
+   ```bash
+   cd /tmp
+   ```
+
+2. Baixe a versão mais recente do Prometheus (verifique no [site oficial do Prometheus](https://prometheus.io/download/) para garantir que você está pegando a versão mais atual):
+
+   ```bash
+   wget https://github.com/prometheus/prometheus/releases/download/v2.46.0/prometheus-2.46.0.linux-amd64.tar.gz
+   ```
+
+   **Nota**: Substitua a versão `2.46.0` pela versão mais recente, se necessário.
+
+3. Extraia o arquivo tar.gz:
+
+   ```bash
+   tar -xvzf prometheus-2.46.0.linux-amd64.tar.gz
+   ```
+
+4. Entre no diretório extraído:
+
+   ```bash
+   cd prometheus-2.46.0.linux-amd64
+   ```
+
+#### Passo 2: Mover os arquivos para o diretório apropriado
+
+Agora que os arquivos foram extraídos, mova o Prometheus para um diretório padrão, como `/usr/local/bin`, para facilitar o gerenciamento.
+
+1. Crie o diretório de instalação:
+
+   ```bash
+   sudo mkdir -p /usr/local/bin/prometheus
+   ```
+
+2. Mova os binários para o diretório adequado:
+
+   ```bash
+   sudo mv prometheus /usr/local/bin/prometheus/
+   sudo mv promtool /usr/local/bin/prometheus/
+   ```
+
+3. Mova os arquivos de configuração:
+
+   ```bash
+   sudo mv consoles /usr/local/bin/prometheus/
+   sudo mv console_libraries /usr/local/bin/prometheus/
+   ```
+
+#### Passo 3: Criar um usuário e grupo para o Prometheus
+
+É uma boa prática executar o Prometheus com um usuário dedicado para aumentar a segurança do sistema.
+
+1. Crie um usuário e grupo para o Prometheus:
+
+   ```bash
+   sudo useradd --no-create-home --shell /bin/false prometheus
+   ```
+
+2. Mude a propriedade dos diretórios do Prometheus para o usuário `prometheus`:
+
+   ```bash
+   sudo chown -R prometheus:prometheus /usr/local/bin/prometheus
+   sudo chown -R prometheus:prometheus /usr/local/bin/prometheus/consoles
+   sudo chown -R prometheus:prometheus /usr/local/bin/prometheus/console_libraries
+   ```
+
+#### Passo 4: Criar o serviço do Prometheus no Systemd
+
+Para iniciar o Prometheus como um serviço, você precisa criar um arquivo de unidade do **systemd**. Isso permitirá que o Prometheus inicie automaticamente quando o servidor for reiniciado.
+
+1. Crie um arquivo de serviço do systemd:
+
+   ```bash
+   sudo nano /etc/systemd/system/prometheus.service
+   ```
+
+2. Adicione o seguinte conteúdo ao arquivo:
+
+```ini
+[Unit]
+Description=Prometheus
+After=network.target
+
+[Service]
+User=prometheus
+Group=prometheus
+ExecStart=/usr/local/bin/prometheus/prometheus \
+  --config.file=/usr/local/bin/prometheus/prometheus.yml \
+  --storage.tsdb.path=/var/lib/prometheus/data \
+  --web.console.templates=/usr/local/bin/prometheus/consoles \
+  --web.console.libraries=/usr/local/bin/prometheus/console_libraries
+
+[Install]
+WantedBy=default.target
+```
+
+3. Salve o arquivo e saia do editor (Ctrl + O, depois Ctrl + X).
+
+#### Passo 5: Criar diretórios necessários para o Prometheus
+
+O Prometheus precisa de alguns diretórios para armazenar os dados das séries temporais. Vamos criar os diretórios necessários e dar a permissão ao usuário `prometheus`.
+
+1. Crie o diretório para armazenar os dados:
+
+```bash
+sudo mkdir -p /var/lib/prometheus/data
+```
+
+2. Dê permissão ao diretório para o usuário `prometheus`:
+
+```bash
+sudo chown -R prometheus:prometheus /var/lib/prometheus
+```
+
+#### Passo 6: Iniciar o Prometheus e habilitar o serviço
+
+Agora, você pode iniciar o serviço do Prometheus e configurá-lo para iniciar automaticamente após o boot do sistema.
+
+1. Carregue a nova configuração do systemd:
+
+```bash
+sudo systemctl daemon-reload
+```
+
+2. Inicie o Prometheus:
+
+```bash
+sudo systemctl start prometheus
+```
+
+3. Habilite o Prometheus para iniciar automaticamente na inicialização do sistema:
+
+```bash
+sudo systemctl enable prometheus
+```
+
+#### Passo 7: Verificar se o Prometheus está funcionando
+
+Para verificar se o Prometheus está funcionando corretamente, você pode acessar a interface web do Prometheus. Abra o seu navegador e acesse:
+
+```
+http://<seu_endereco_ip>:9090
+```
+O Prometheus deve estar rodando na porta **9090** por padrão. Se você conseguir acessar a interface web, isso significa que o Prometheus está funcionando corretamente.
+
+#### Passo 8: Verificar o status do serviço
+
+Você pode verificar o status do Prometheus com o comando:
+
+```bash
+sudo systemctl status prometheus
+```
+
+Se o Prometheus estiver funcionando corretamente, você verá algo como:
+
+```bash
+● prometheus.service - Prometheus
+     Loaded: loaded (/etc/systemd/system/prometheus.service; enabled; vendor preset: enabled)
+     Active: active (running) since ...; ...
+     Main PID: ...
+     ...
+```
+
 ### Referências:
 - **Site oficial**: https://prometheus.io/
 - **Documentação completa**: https://prometheus.io/docs/
@@ -97,32 +267,195 @@ Quando você acessa o node_exporter via `http://seu_servidor:9100/metrics`, ele 
   - `node_network_transmit_bytes_total`: Bytes transmitidos em todas as interfaces de rede.
 
 ### Instalação e configuração básica:
-1. **Instalação**:
-   - Em sistemas baseados em Debian/Ubuntu:
-```bash
-sudo apt-get update
-sudo apt-get install prometheus-node-exporter
-```
-   - Em sistemas baseados em RedHat/CentOS:
-```bash
-sudo yum install node_exporter
+
+O **node_exporter** é um **exportador** usado pelo Prometheus para coletar métricas de sistema, como uso de CPU, memória, disco, rede, entre outros. Se você não tem certeza se o **node_exporter** está instalado, pode seguir os passos abaixo para verificá-lo:
+
+#### Verificar se o **node_exporter** está instalado
+
+Primeiro, você pode tentar verificar se o **node_exporter** está presente no sistema e se está em execução com os seguintes comandos:
+
+1. **Verifique se o node_exporter está instalado:**
+
+   ```bash
+   which node_exporter
+   ```
+
+   Se o comando retornar o caminho para o executável (como `/usr/local/bin/node_exporter` ou algo similar), isso significa que o **node_exporter** já está instalado. Caso contrário, não estará instalado.
+
+2. **Verificar se o serviço do node_exporter está em execução:**
+
+   Se o **node_exporter** estiver instalado como um serviço **systemd**, você pode verificar se o serviço está em execução:
+
+   ```bash
+   sudo systemctl status node_exporter
+   ```
+
+   Se o serviço estiver ativo e rodando, você verá algo como:
+
+   ```
+   ● node_exporter.service - Node Exporter
+        Loaded: loaded (/etc/systemd/system/node_exporter.service; enabled; vendor preset: enabled)
+        Active: active (running) since ...
+        Main PID: ...
+   ```
+
+   Caso o serviço não esteja rodando, ou o arquivo de serviço não exista, você precisará instalar o **node_exporter** e configurá-lo.
+
+---
+
+#### Como instalar o **node_exporter**
+
+Agora, se o **node_exporter** não estiver instalado, siga os passos abaixo para instalá-lo e configurá-lo.
+
+##### Passo 1: Baixar o **node_exporter**
+
+1. Acesse a pasta temporária para baixar o arquivo do **node_exporter**:
+
+   ```bash
+   cd /tmp
+   ```
+
+2. Baixe a versão mais recente do **node_exporter** (sempre verifique no [site oficial](https://prometheus.io/download/#node_exporter) qual é a versão mais recente):
+
+   ```bash
+   wget https://github.com/prometheus/node_exporter/releases/download/v1.6.0/node_exporter-1.6.0.linux-amd64.tar.gz
+   ```
+
+   **Nota**: Substitua a versão `1.6.0` pela versão mais recente, se necessário.
+
+3. Extraia o arquivo tar.gz:
+
+   ```bash
+   tar -xvzf node_exporter-1.6.0.linux-amd64.tar.gz
+   ```
+
+4. Mova os binários para o diretório correto (normalmente, `/usr/local/bin`):
+
+   ```bash
+   sudo mv node_exporter-1.6.0.linux-amd64/node_exporter /usr/local/bin/
+   ```
+
+5. Verifique se o **node_exporter** foi instalado corretamente:
+
+   ```bash
+   node_exporter --version
+   ```
+
+   Isso deve retornar a versão do **node_exporter** instalada.
+
+---
+
+##### Passo 2: Configurar o **node_exporter** como um serviço (systemd)
+
+Para garantir que o **node_exporter** inicie automaticamente com o sistema, é recomendável configurá-lo como um serviço **systemd**.
+
+1. Crie um arquivo de serviço para o **node_exporter**:
+
+   ```bash
+   sudo nano /etc/systemd/system/node_exporter.service
+   ```
+
+2. Adicione o seguinte conteúdo ao arquivo de serviço:
+
+```ini
+[Unit]
+Description=Node Exporter
+Documentation=https://prometheus.io/docs/exporters/node_exporter/
+After=network.target
+
+[Service]
+User=nobody
+Group=nogroup
+ExecStart=/usr/local/bin/node_exporter
+
+[Install]
+WantedBy=default.target
 ```
 
-2. **Execução**:
-   - Depois de instalado, basta executar o node_exporter:
-```bash
-./node_exporter
-```
-   - Isso iniciará o node_exporter e ele estará escutando na porta 9100, por padrão.
+3. Salve e feche o arquivo (`Ctrl + O`, depois `Ctrl + X`).
 
-3. **Configuração no Prometheus**:
-   - No arquivo de configuração do Prometheus (`prometheus.yml`), adicione o seguinte para monitorar o node_exporter:
-     ```yaml
-     scrape_configs:
-       - job_name: 'node_exporter'
-         static_configs:
-           - targets: ['localhost:9100']  # ou o IP do servidor
-     ```
+4. Dê permissão para carregar o arquivo de serviço:
+```bash
+sudo systemctl daemon-reload
+```
+
+---
+
+##### Passo 3: Iniciar o **node_exporter**
+
+1. Agora, inicie o serviço **node_exporter**:
+
+   ```bash
+   sudo systemctl start node_exporter
+   ```
+
+2. Para garantir que o **node_exporter** seja iniciado automaticamente após a reinicialização do sistema, habilite o serviço:
+
+   ```bash
+   sudo systemctl enable node_exporter
+   ```
+
+---
+
+##### Passo 4: Verificar se o **node_exporter** está funcionando
+
+O **node_exporter** por padrão escuta na porta **9100**. Você pode verificar se ele está funcionando acessando o endereço de **localhost** na porta 9100.
+
+1. Abra o navegador ou use o **curl** para acessar o **node_exporter** localmente:
+
+   ```
+   curl http://localhost:9100/metrics
+   ```
+
+   Se o **node_exporter** estiver funcionando corretamente, você verá uma longa lista de métricas relacionadas ao sistema, como uso de CPU, memória, disco e rede.
+
+2. Verifique também o status do serviço **node_exporter**:
+
+   ```bash
+   sudo systemctl status node_exporter
+   ```
+
+   Isso deve mostrar o status do serviço como **ativo (running)**.
+
+---
+
+##### Passo 5: Configurar o Prometheus para coletar métricas do **node_exporter**
+
+Agora que o **node_exporter** está rodando, você precisa configurar o **Prometheus** para coletar as métricas dele.
+
+1. Abra o arquivo de configuração do **Prometheus**, `prometheus.yml`:
+
+   ```bash
+   sudo nano /usr/local/bin/prometheus/prometheus.yml
+   ```
+
+2. Adicione o **node_exporter** como uma **source** para o Prometheus na seção de `scrape_configs`:
+
+   ```yaml
+   scrape_configs:
+     - job_name: 'node'
+       static_configs:
+         - targets: ['localhost:9100']
+   ```
+
+   Isso instrui o Prometheus a coletar métricas do **node_exporter** em **localhost:9100**.
+
+3. Salve o arquivo e saia.
+
+4. Reinicie o Prometheus para aplicar a nova configuração:
+
+   ```bash
+   sudo systemctl restart prometheus
+   ```
+
+---
+
+### Conclusão
+
+Agora você tem o **node_exporter** instalado, configurado como um serviço e integrado com o **Prometheus**. O **Prometheus** começará a coletar métricas do seu sistema, como uso de CPU, memória, rede, disco, etc., via **node_exporter**.
+
+Para garantir que tudo esteja funcionando corretamente, acesse a interface web do **Prometheus** e verifique se as métricas estão sendo coletadas. Você pode procurar por `node_` nas métricas do Prometheus, que são as métricas coletadas pelo **node_exporter**.
+
 
 4. **Dashboard com Grafana**:
    - Se você estiver usando o Grafana para visualização, há dashboards prontos na comunidade Grafana para monitorar métricas do node_exporter. Basta importar o dashboard ID **1860** do Grafana Labs.

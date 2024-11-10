@@ -78,10 +78,10 @@ Para instalar o Grafana, siga os passos abaixo de acordo com o sistema operacion
    ```
 
 5. **Inicie o serviço do Grafana:**
-   ```bash
-   sudo systemctl start grafana-server
-   sudo systemctl enable grafana-server
-   ```
+```bash
+sudo systemctl start grafana-server
+sudo systemctl enable grafana-server
+```
 
 6. **Acesse o Grafana no navegador:**
    - Abra o navegador e acesse: `http://localhost:3000`
