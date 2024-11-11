@@ -81,7 +81,10 @@
     "TI/Tecnologia/Programação/Node": 1,
     "TI/Tecnologia/Programação/Node/socketio": 1,
     "TI/Tecnologia/Zabbix": 7,
-    "TI/Tecnologia/DBA/SQL": 2
+    "TI/Tecnologia/DBA/SQL": 2,
+    "TI/Programação/Node": 5,
+    "TI/Programação/Node/socketio": 1,
+    "Trabalho/NetTurbo/Voalle": 1
   },
   "_version": 3
 }

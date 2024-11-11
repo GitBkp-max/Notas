@@ -1,6 +1,6 @@
 ---
 tags:
-  - TI/Tecnologia/Programação/Node
+  - TI/Programação/Node
   - TI/Programação/JS-TS
 ---
 1. Sistema de autenticação simples

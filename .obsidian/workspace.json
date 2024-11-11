@@ -4,41 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4245f52b09cda84d",
+        "id": "101dbfc754116be6",
         "type": "tabs",
         "children": [
           {
-            "id": "8d51282e26da28b5",
+            "id": "dec9a3c457e6434a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Áreas/Trabalho/NetTurbo/DEV/2109/2109 - Mapa da rede Datacenter + Bases.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2109 - Mapa da rede Datacenter + Bases"
-            }
-          },
-          {
-            "id": "d7744dc240e2013a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-11-11 DEV - 2109 - Retomada ao plano"
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,11 +114,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Sumário de 2024-11-11 DEV - 2109 - Retomada ao plano"
+              "title": "Sumário"
             }
           },
           {
@@ -192,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Tecnologia",
+                "query": "tag:#Voalle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -227,7 +204,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -247,7 +223,7 @@
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
                   "centerStrength": 0.6,
-                  "repelStrength": 19.8843279846991,
+                  "repelStrength": 8.42658150898392,
                   "linkStrength": 1,
                   "linkDistance": 141,
                   "scale": 0.3462459483987099,
@@ -255,11 +231,10 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de 2024-11-11 DEV - 2109 - Retomada ao plano"
+              "title": "Visualização em gráfico"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -282,9 +257,19 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
-  "active": "d7744dc240e2013a",
+  "active": "44dd2121f304cd1c",
   "lastOpenFiles": [
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 DEV - Atualização - Voalle - Script de coleta de erros de integração.md",
     "Áreas/Trabalho/NetTurbo/DEV/2109/2109 - Mapa da rede Datacenter + Bases.md",
+    "Recursos/Wiki/DBA/SQL/Dicionario de comandos sql.md",
+    "Recursos/Wiki/DBA/SQL/Mapa SQL.canvas",
+    "Artigos/big data resumão.canvas",
+    "Áreas/Projetos/Gerenciador de Email.md",
+    "Áreas/Projetos/Coletor de info de PC.md",
+    "Áreas/Projetos/Projetos Backend JS.md",
+    "Artigos/Socket.io chat.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-05 DEV - 2094 - Estudo.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md",
     "Artigos/MySQL.md",
     "Artigos/Orientação a Objetos.md",
     "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
@@ -302,22 +287,12 @@
     "Recursos/Wiki/DBA/Conhecimentos tecnicos do DBA.md",
     "Recursos/Wiki/DBA/Backup e Recuperação.md",
     "Recursos/Wiki/DBA/Automatização e Scripting.md",
-    "Recursos/Wiki/DBA/SQL/SQL JOIN's.md",
-    "Recursos/Wiki/DBA/SQL/SQL Basico.md",
-    "Recursos/Wiki/DBA/SQL/NOT IN - IN.md",
-    "Recursos/Wiki/DBA/SQL/Mapa SQL.canvas",
-    "Recursos/Wiki/DBA/SQL/Linguagem SQL.md",
-    "Recursos/Wiki/DBA/SQL/Dicionario de comandos sql.md",
-    "Recursos/Wiki/DBA/SQL/01_Comandos/TCL (Transaction Control Language).md",
-    "Recursos/Wiki/DBA/SQL/01_Comandos/Outros Comandos.md",
-    "Recursos/Wiki/DBA/SQL/01_Comandos/DML (Data Manipulation Language).md",
     "Recursos/Wiki/DBA/SQL/attachments/Pasted image 20241107130539.png",
     "Áreas/Trabalho/NetTurbo/DEV/2109",
     "0New",
     "Áreas/Financias/2024",
     "Áreas/Financias",
     "Recursos/Wiki/Programação/attachments/1713783761847.jpeg",
-    "Artigos/big data resumão.canvas",
     "Recursos/Wiki/Programação/attachments/01 A forked commit history.webp",
     "Recursos/Wiki/Programação/attachments/Pasted image 20241107103128.png",
     "Áreas/Trabalho/NetTurbo/DEV/2094",

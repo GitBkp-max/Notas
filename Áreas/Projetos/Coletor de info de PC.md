@@ -1,3 +1,7 @@
+---
+tags:
+  - TI/SO/Windows
+---
 ### Informação sobre o Script `.bat` Criado
 
 #### Descrição Geral

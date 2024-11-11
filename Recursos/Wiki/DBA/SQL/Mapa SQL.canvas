@@ -56,7 +56,10 @@
 		{"id":"c69b41d2aeb520dd","type":"text","text":"COUNT()","x":452,"y":-190,"width":134,"height":29,"color":"1"},
 		{"id":"a1c830677c88bee2","type":"text","text":"SUM()","x":452,"y":-141,"width":112,"height":29,"color":"1"},
 		{"id":"ed0514f0f007093d","type":"text","text":"JOIN","x":240,"y":-345,"width":104,"height":50,"color":"#bb00ff"},
-		{"id":"f1a31fb12865d7ef","type":"text","text":"[[DDL (Data Definition Language)|DDL]]","x":-376,"y":-589,"width":96,"height":60,"color":"#073d00"}
+		{"id":"f1a31fb12865d7ef","type":"text","text":"[[DDL (Data Definition Language)|DDL]]","x":-376,"y":-589,"width":96,"height":60,"color":"#073d00"},
+		{"id":"9eeb39a0865eb5d9","x":-579,"y":-1440,"width":400,"height":400,"type":"file","file":"Recursos/Wiki/DBA/SQL/01_Comandos/DDL (Data Definition Language).md"},
+		{"id":"89f61f642ddd0af3","x":-1286,"y":-85,"width":400,"height":400,"type":"file","file":"Recursos/Wiki/DBA/SQL/01_Comandos/DML (Data Manipulation Language).md"},
+		{"id":"203b9adf1e0ae8ec","x":-329,"y":360,"width":400,"height":400,"type":"file","file":"Recursos/Wiki/DBA/SQL/01_Comandos/DCL (Data Control Language).md"}
 	],
 	"edges":[
 		{"id":"e3235438e37aad96","fromNode":"bb889bb59fc15d5d","fromSide":"right","toNode":"7e0877cf1b51d276","toSide":"left","toEnd":"none"},
@@ -114,6 +117,10 @@
 		{"id":"a3f095dc9f94e389","fromNode":"696b9f6aa5a51dca","fromSide":"bottom","toNode":"8e26bac3bd215e2c","toSide":"top"},
 		{"id":"6710eba640054665","fromNode":"696b9f6aa5a51dca","fromSide":"left","toNode":"dbaa19ef93b17514","toSide":"right"},
 		{"id":"cbfd39c098c72e6a","fromNode":"696b9f6aa5a51dca","fromSide":"left","toNode":"461069c219e0224c","toSide":"right"},
-		{"id":"c2824dbc6781f914","fromNode":"696b9f6aa5a51dca","fromSide":"left","toNode":"58ba07ab0ee1fbbb","toSide":"right"}
+		{"id":"c2824dbc6781f914","fromNode":"696b9f6aa5a51dca","fromSide":"left","toNode":"58ba07ab0ee1fbbb","toSide":"right"},
+		{"id":"b950dfebcc56e199","fromNode":"f1a31fb12865d7ef","fromSide":"top","toNode":"9eeb39a0865eb5d9","toSide":"bottom"},
+		{"id":"80d0bce6e460e950","fromNode":"dbaa19ef93b17514","fromSide":"left","toNode":"89f61f642ddd0af3","toSide":"right"},
+		{"id":"2fc049da31327d28","fromNode":"461069c219e0224c","fromSide":"bottom","toNode":"203b9adf1e0ae8ec","toSide":"top"},
+		{"id":"50ba71212951642a","fromNode":"58ba07ab0ee1fbbb","fromSide":"bottom","toNode":"203b9adf1e0ae8ec","toSide":"left"}
 	]
 }
