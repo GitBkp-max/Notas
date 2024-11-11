@@ -1,8 +1,8 @@
 ---
 tags:
-  - SMART
   - Trabalho/NetTurbo
-  - zabbix
+  - TI/Tecnologia/Zabbix
+  - TI/SMART
 ---
 Data Solicitação: 01/07/2024
 Data Coleta de informações: 01/07/2024

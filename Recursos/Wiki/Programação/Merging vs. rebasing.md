@@ -1,6 +1,6 @@
 ---
 tags:
-  - git
+  - TI/Tecnologia/Git-GitHub
 ---
 O comando `git rebase` tem a reputação de ser o feitiço mágico do Git do qual os iniciantes devem ficar longe, entretanto, ele pode facilitar muito a vida da equipe de desenvolvimento quando usado com cuidado. Neste artigo, vamos comparar o `git rebase` com o comando `git merge` relacionado e identificar todas as oportunidades potenciais para incorporar o rebase ao fluxo de trabalho típico do Git.
 

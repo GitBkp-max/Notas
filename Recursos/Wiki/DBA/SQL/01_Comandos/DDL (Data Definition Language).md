@@ -1,9 +1,9 @@
 ---
 aliases: 
 tags:
-  - Tecnologia/DBA
+  - TI/Tecnologia/DBA/SQL
 ---
-# DDL (Data Definition Language):
+s# DDL (Data Definition Language):
 
 ## **CREATE**
 

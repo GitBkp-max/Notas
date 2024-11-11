@@ -1,7 +1,7 @@
 ---
 tags:
-  - Programação
   - Artigos
+  - TI/Programação
 ---
   
 Claro, vamos mergulhar na orientação a objetos (OO), um conceito fundamental em Java e em muitas outras linguagens de programação. A OO é uma abordagem para modelar sistemas complexos, que os trata como uma coleção de objetos interativos, cada um responsável por seu próprio comportamento e estado. Aqui estão os principais pilares da orientação a objetos:

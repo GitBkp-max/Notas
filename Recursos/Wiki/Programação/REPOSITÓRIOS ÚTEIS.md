@@ -1,7 +1,6 @@
 ---
 tags:
-  - Programação
-  - git
+  - TI/Tecnologia/Git-GitHub
 ---
 LISTINHA DE REPOSITÓRIOS ÚTEIS.  
   

@@ -1,7 +1,7 @@
 ---
 tags:
-  - Prometheus/Node-Exporter
-  - SMART
+  - TI/SMART
+  - TI/Tecnologia/Prometheus/Node-Exporter
 ---
 Aqui está uma lista detalhada de métricas que você pode usar para monitorar o desempenho e a saúde do disco com o `node_exporter` no Grafana. Essas métricas são essenciais para entender a operação do seu sistema de armazenamento e identificar possíveis problemas.
 

@@ -1,9 +1,8 @@
 ---
 tags:
-  - Grafana
-  - Prometheus/Node-Exporter
-  - SO/Linux
-  - Prometheus
+  - TI/Tecnologia/Prometheus/Node-Exporter
+  - TI/SO/Linux
+  - TI/Tecnologia/Grafana
 aliases:
   - monitoramento de disco
 ---

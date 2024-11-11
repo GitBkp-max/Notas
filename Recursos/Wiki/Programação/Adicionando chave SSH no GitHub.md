@@ -1,6 +1,6 @@
 ---
 tags:
-  - Programação/GitHub
+  - TI/Tecnologia/Git-GitHub
 ---
 # Verificar se há chaves SSH
 

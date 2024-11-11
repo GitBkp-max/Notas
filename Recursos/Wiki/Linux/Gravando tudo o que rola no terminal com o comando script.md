@@ -1,6 +1,6 @@
 ---
 tags:
-  - SO/Linux
+  - TI/SO/Linux
 ---
 Esta dica é útil para que está instalando algum programa a partir do fonte (_sources_) e todos as mensagens de erros rolam na tela, sem proporcionar a possibilidade de verificar tais erros. Pode ser útil para diversos outros fins que necessitam de manter um controle maior sobre a exibição da tela.
 

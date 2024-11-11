@@ -1,8 +1,8 @@
 ---
 tags:
-  - Prometheus
-  - Grafana
   - Artigos
+  - TI/Tecnologia/Grafana
+  - TI/Tecnologia/Prometheus
 ---
 ## Sobre o Prometheus
 
@@ -223,7 +223,7 @@ Se o Prometheus estiver funcionando corretamente, você verá algo como:
 
 ## Node-Exporter
 
-O #Prometheus/Node-Exporter node_exporter é um dos **exporters** mais usados no ecossistema Prometheus. Ele é um agente de monitoramento especializado em coletar métricas relacionadas ao sistema operacional e expô-las no formato esperado pelo Prometheus, permitindo que você monitore os recursos físicos e de sistema de máquinas Linux (e parcialmente, máquinas Windows).
+O #TI/Tecnologia/Prometheus/Node-Exporter r node_exporter é um dos **exporters** mais usados no ecossistema Prometheus. Ele é um agente de monitoramento especializado em coletar métricas relacionadas ao sistema operacional e expô-las no formato esperado pelo Prometheus, permitindo que você monitore os recursos físicos e de sistema de máquinas Linux (e parcialmente, máquinas Windows).
 
 ### Características principais do node_exporter:
 1. **Coleta de métricas do sistema**:
@@ -480,7 +480,7 @@ node_filesystem_avail_bytes / node_filesystem_size_bytes * 100
 
 ## Smartctl-Exporter
 
-#prometheus/Smartctl-exporter 
+#TI/Tecnologia/prometheus/Smartctl-exporter  
 
 O **smartctl_exporter** é uma ferramenta que coleta e exporta métricas do sistema de monitoramento de saúde de discos rígidos e SSDs usando o comando `smartctl`, que faz parte do pacote `smartmontools`. Essa ferramenta é comumente usada em ambientes de monitoramento, como o Prometheus, para rastrear a saúde e o desempenho dos dispositivos de armazenamento.
 

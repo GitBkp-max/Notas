@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - Tecnologia/DBA
+  - TI/Tecnologia/DBA
 ---
   
 Claro, Marcos. A segurança de dados é um dos aspectos mais críticos da era digital. Ela abrange uma série de práticas, políticas e tecnologias destinadas a proteger os dados contra acesso não autorizado, uso indevido, roubo, corrupção ou perda. Aqui estão alguns pontos importantes sobre segurança de dados:

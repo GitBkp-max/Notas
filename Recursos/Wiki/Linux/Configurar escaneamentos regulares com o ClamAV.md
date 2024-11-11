@@ -1,7 +1,7 @@
 ---
 tags:
-  - Antivirus
-  - SO/Linux
+  - TI/Antivirus
+  - TI/SO/Linux
 ---
 A programação de escaneamentos regulares é uma prática recomendada para manter a segurança do seu sistema Linux com ClamAV. Isso envolve agendar automaticamente escaneamentos periódicos do sistema de arquivos em busca de ameaças de malware. Aqui estão algumas explicações mais detalhadas sobre como configurar essa programação:
 

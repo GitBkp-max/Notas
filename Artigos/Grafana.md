@@ -1,7 +1,7 @@
 ---
 tags:
-  - Grafana
   - Artigos
+  - TI/Tecnologia/Grafana
 ---
 ## Sobre o Grafana
 

@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - Tecnologia/DBA
+  - TI/Tecnologia/DBA
 ---
 02/04/2024 22:59
 

@@ -1,9 +1,8 @@
 ---
 tags:
-  - Programação/Node
-  - Programação/JS
-  - Programação/socketio
   - Artigos
+  - TI/Tecnologia/Programação/Node/socketio
+  - TI/Programação/JS-TS
 ---
 # Começar
 

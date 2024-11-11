@@ -1,9 +1,8 @@
 ---
 tags:
-  - SMART
-  - Grafana
-  - prometheus/Smartctl-exporter
-  - Prometheus
+  - TI/Tecnologia/prometheus/Smartctl-exporter
+  - TI/SMART
+  - TI/Tecnologia/Grafana
 ---
 ## **Métricas do `smartmontools`** (SMART Health Monitoring)
 

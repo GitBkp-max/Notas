@@ -1,6 +1,6 @@
 ---
 tags:
-  - Linux
+  - TI/SO/Linux
 ---
 Daily Heroes:  
 	• ps aux | grep {process} - Encontre aquele processo furtivo  

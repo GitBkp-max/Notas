@@ -1,6 +1,6 @@
 ---
 tags:
-  - Tecnologia/DBA
+  - TI/Tecnologia/DBA/SQL
 ---
 Para inverter o processo e exibir apenas os registros onde `b.incident_status_id` é igual a 4 ou 8, você deve substituir a condição <span style="color:rgb(0, 112, 192)">NOT IN</span> por <span style="color:rgb(0, 112, 192)">IN</span>. A linha modificada ficará assim: 
 

@@ -4,20 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "71a0ed054e0b197b",
+        "id": "4245f52b09cda84d",
         "type": "tabs",
         "children": [
           {
-            "id": "dd3ee0571b806166",
+            "id": "8d51282e26da28b5",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "type": "markdown",
+              "state": {
+                "file": "Áreas/Trabalho/NetTurbo/DEV/2109/2109 - Mapa da rede Datacenter + Bases.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2109 - Mapa da rede Datacenter + Bases"
+            }
+          },
+          {
+            "id": "d7744dc240e2013a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-11-11 DEV - 2109 - Retomada ao plano"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.5
+    "width": 247.5
   },
   "right": {
     "id": "94edc9d0a0fefe8f",
@@ -65,7 +86,7 @@
       {
         "id": "74c6539272e83813",
         "type": "tabs",
-        "dimension": 32.37311385459534,
+        "dimension": 32.36434108527132,
         "children": [
           {
             "id": "f20740d8d3509dc9",
@@ -107,16 +128,31 @@
       {
         "id": "100ddb3535a02607",
         "type": "tabs",
-        "dimension": 29.218106995884774,
+        "dimension": 36.82170542635659,
         "children": [
           {
             "id": "d8f41e5cc8b94f95",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md"
+              },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de 2024-11-11 DEV - 2109 - Retomada ao plano"
+            }
+          },
+          {
+            "id": "94e6c53c1d208116",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -151,28 +187,15 @@
             }
           },
           {
-            "id": "94e6c53c1d208116",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
             "id": "681946b4bd3b4128",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Tecnologia",
                 "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
+                "explainSearch": false,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -180,12 +203,13 @@
               "title": "Procurar"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0abdfcaf5bea1227",
         "type": "tabs",
-        "dimension": 38.40877914951989,
+        "dimension": 30.813953488372093,
         "children": [
           {
             "id": "5e573794e170b2f8",
@@ -203,6 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -221,16 +246,16 @@
                   "nodeSizeMultiplier": 0.661849957374254,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
-                  "centerStrength": 0.337562055630846,
-                  "repelStrength": 18.5,
-                  "linkStrength": 0.92,
-                  "linkDistance": 47,
-                  "scale": 0.24696873902523594,
+                  "centerStrength": 0.6,
+                  "repelStrength": 20,
+                  "linkStrength": 1,
+                  "linkDistance": 141,
+                  "scale": 0.3462459483987099,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "title": "Gráfico de 2024-11-11 DEV - 2109 - Retomada ao plano"
             }
           }
         ],
@@ -257,37 +282,40 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
-  "active": "44dd2121f304cd1c",
+  "active": "d7744dc240e2013a",
   "lastOpenFiles": [
-    "Recursos/Wiki/Linux/php para phpmyadmin.md",
-    "Recursos/Wiki/Linux/instalar phpmyadmin.md",
-    "Recursos/Wiki/Linux/MySQL.md",
-    "0New/Sem título.md",
-    "Artigos/Prometheus.md",
-    "Recursos/Wiki/Monitoramento/fazendo coleta smart de disco no grafana com Node-Exporter.md",
-    "Artigos/Grafana.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-05 DEV - 2094 - Estudo.md",
-    "Recursos/Wiki/Programação/Adicionando chave SSH no GitHub.md",
-    "Recursos/Obisidian/Callout.md",
-    "0New/Nova nota modelo.md",
-    "0New",
-    "Artigos/O que são WebSockets.md",
-    "Artigos/Socket.io chat.md",
-    "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
+    "Áreas/Trabalho/NetTurbo/DEV/2109/2109 - Mapa da rede Datacenter + Bases.md",
+    "Artigos/MySQL.md",
+    "Artigos/Orientação a Objetos.md",
     "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
-    "Áreas/Financias/2024/Outubro.md",
-    "Áreas/Financias/Outubro.md",
+    "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
+    "Artigos/Prometheus.md",
+    "Artigos/Grafana.md",
+    "Recursos/GPT/Dicas para estudo de Zabbix e Grafana.md",
+    "Recursos/Wiki/DBA/Troubleshooting e Resolução de Problemas.md",
+    "Recursos/Wiki/DBA/Sistemas de Gerenciamento de Banco de Dados (SGBD).md",
+    "Recursos/Wiki/DBA/Segurança de Dados e Regulamentações de Conformidade.md",
+    "Recursos/Wiki/DBA/Segurança de Dados.md",
+    "Recursos/Wiki/DBA/Replicação e Alta Disponibilidade.md",
+    "Recursos/Wiki/DBA/Monitoramento e Otimização de Desempenho.md",
+    "Recursos/Wiki/DBA/Modelagem de Dados.md",
+    "Recursos/Wiki/DBA/Conhecimentos tecnicos do DBA.md",
+    "Recursos/Wiki/DBA/Backup e Recuperação.md",
+    "Recursos/Wiki/DBA/Automatização e Scripting.md",
+    "Recursos/Wiki/DBA/SQL/SQL JOIN's.md",
+    "Recursos/Wiki/DBA/SQL/SQL Basico.md",
+    "Recursos/Wiki/DBA/SQL/NOT IN - IN.md",
+    "Recursos/Wiki/DBA/SQL/Mapa SQL.canvas",
+    "Recursos/Wiki/DBA/SQL/Linguagem SQL.md",
+    "Recursos/Wiki/DBA/SQL/Dicionario de comandos sql.md",
+    "Recursos/Wiki/DBA/SQL/01_Comandos/TCL (Transaction Control Language).md",
+    "Recursos/Wiki/DBA/SQL/01_Comandos/Outros Comandos.md",
+    "Recursos/Wiki/DBA/SQL/01_Comandos/DML (Data Manipulation Language).md",
+    "Recursos/Wiki/DBA/SQL/attachments/Pasted image 20241107130539.png",
+    "Áreas/Trabalho/NetTurbo/DEV/2109",
+    "0New",
     "Áreas/Financias/2024",
-    "0New/HomePage.md",
     "Áreas/Financias",
-    "Calendario/2024-11-06 Entrevista Técnica - Vaga técnico de suporte 2º nível pleno.md",
-    "Calendario/2024-11-07 Bate-papo com Gestão de Pessoas, pela empresa Lanlink..md",
-    "Recursos/GPT/chat em tempo real.md",
-    "Recursos/GPT/Aprendizagem de linguagem.md",
-    "Áreas/Projetos/Projetos Backend JS.md",
-    "Áreas/Projetos/Gerenciador de Email.md",
-    "Áreas/Projetos/Coletor de info de PC.md",
-    "Recursos/GPT/Editores .md",
     "Recursos/Wiki/Programação/attachments/1713783761847.jpeg",
     "Artigos/big data resumão.canvas",
     "Recursos/Wiki/Programação/attachments/01 A forked commit history.webp",
@@ -298,7 +326,6 @@
     "Calendario",
     "Áreas/Trabalho/NetTurbo/DEV",
     "Recursos/Wiki/DBA/SQL/01_Comandos",
-    "Recursos/Wiki/DBA/SQL",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240609183607.png",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426202110.png",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426141607.png",

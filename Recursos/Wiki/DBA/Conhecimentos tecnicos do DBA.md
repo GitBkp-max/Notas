@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - Tecnologia/DBA
+  - TI/Tecnologia/DBA
 ---
 # Perfil de um Administrador de Banco de Dados (DBA)
 

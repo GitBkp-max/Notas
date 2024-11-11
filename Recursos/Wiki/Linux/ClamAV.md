@@ -1,7 +1,7 @@
 ---
 tags:
-  - Antivirus
-  - SO/Linux
+  - TI/SO/Linux
+  - TI/Antivirus
 ---
 Para usar o ClamAV no Linux, você precisará instalar o software e aprender os comandos básicos para escanear e gerenciar o antivírus. Aqui está um guia básico para começar:
 

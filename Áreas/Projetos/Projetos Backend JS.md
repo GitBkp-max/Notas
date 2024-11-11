@@ -1,7 +1,7 @@
 ---
 tags:
-  - Programação/Node
-  - Programação/JS
+  - TI/Tecnologia/Programação/Node
+  - TI/Programação/JS-TS
 ---
 1. Sistema de autenticação simples
 	- Crie um sistema de autenticação de usuarios usando `Node.js` e `Express`. Use **Bibliotecas como Passport.js** para simplificar o processo

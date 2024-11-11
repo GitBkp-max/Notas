@@ -1,7 +1,7 @@
 ---
 tags:
-  - Programação/php
-  - Tecnologia/DBA
+  - TI/Tecnologia/DBA
+  - TI/Programação/php
 ---
 A exceção **`mysqli_sql_exception`** é lançada quando ocorre um erro na execução de uma consulta SQL utilizando o MySQLi (MySQL Improved) em PHP. Esta exceção é lançada quando há um erro na sintaxe SQL, problemas de conexão com o banco de dados, violações de restrições de chave, entre outros.
 

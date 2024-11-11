@@ -1,9 +1,9 @@
 ---
 tags:
-  - SMART
   - AI/GPT
   - Trabalho/NetTurbo
-  - zabbix
+  - TI/SMART
+  - TI/Tecnologia/Zabbix
 ---
 ### 1 - Explicação da descrição do template:
 

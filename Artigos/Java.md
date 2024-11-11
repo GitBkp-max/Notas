@@ -1,7 +1,7 @@
 ---
 tags:
-  - Programação/Java
   - Artigos
+  - TI/Programação/Java
 ---
 Java é uma linguagem de programação de propósito geral, orientada a objetos ( [[Orientação a Objetos]] ) e multiplataforma, desenvolvida pela Sun Microsystems (adquirida pela Oracle Corporation em 2010). Desde o seu lançamento em 1995, Java tem sido uma das linguagens mais populares e amplamente utilizadas em todo o mundo, tanto no desenvolvimento de aplicativos para desktop, web e dispositivos móveis, quanto em sistemas embarcados e grandes sistemas corporativos.
 ### História e Evolução:

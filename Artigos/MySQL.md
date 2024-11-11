@@ -1,7 +1,7 @@
 ---
 tags:
-  - Tecnologia/DBA
   - Artigos
+  - TI/Tecnologia/DBA/MySQL
 ---
 MySQL é um dos [[Sistemas de Gerenciamento de Banco de Dados (SGBD)]] mais populares e amplamente utilizados no mundo. Ele oferece uma variedade de ferramentas e programas para auxiliar no desenvolvimento, administração e manutenção de bancos de dados relacionais. Vamos explorar algumas das principais ferramentas e programas associados ao MySQL:
 

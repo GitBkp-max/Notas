@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - Tecnologia/DBA
+  - TI/Tecnologia/DBA/SQL
 ---
 # TCL (Transaction Control Language):
 

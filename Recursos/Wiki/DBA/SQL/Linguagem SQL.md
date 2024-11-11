@@ -1,6 +1,6 @@
 ---
 tags:
-  - Tecnologia/DBA
+  - TI/Tecnologia/DBA/SQL
 aliases:
 ---
 SQL, que significa Structured Query Language, ou Linguagem de Consulta Estruturada em português. O SQL é uma linguagem de programação usada principalmente para gerenciar e manipular bancos de dados relacionais. Ele fornece uma maneira padronizada de realizar várias operações em bancos de dados, como consultar dados, inserir novos registros, atualizar registros existentes e excluir dados.

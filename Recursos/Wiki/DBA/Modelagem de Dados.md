@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - Tecnologia/DBA
+  - TI/Tecnologia/DBA
 ---
 02/04/2024 19:06  
 [Aula usada para esse material](https://www.youtube.com/playlist?list=PLLbQNZHBOJtaK4vGBmdvOaPaxDJxRT0fe "https://www.youtube.com/playlist?list=PLLbQNZHBOJtaK4vGBmdvOaPaxDJxRT0fe")

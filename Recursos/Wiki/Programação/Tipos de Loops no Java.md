@@ -1,6 +1,6 @@
 ---
 tags:
-  - Programação/Java
+  - TI/Programação/Java
 ---
 ## Explorando os Tipos de Loops em Java!
 Você já se perguntou qual loop usar para resolver um problema de forma mais eficiente? Hoje compartilho um pouco sobre os tipos de loops que você encontra em Java e em quais casos cada um é mais útil.

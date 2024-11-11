@@ -1,3 +1,7 @@
+---
+tags:
+  - TI/SO/Linux
+---
 O `Cron` é um serviço em sistemas Linux que executa tarefas agendadas automaticamente em horários ou intervalos pré-determinados. Ele é muito utilizado para automação de manutenção, backups, limpeza de arquivos, execução de scripts, entre outros. As tarefas são especificadas em um arquivo chamado **crontab**.
 
 ### Estrutura da Crontab

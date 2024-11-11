@@ -1,10 +1,8 @@
 ---
 tags:
-  - Grafana
-  - SO/Linux
-  - Prometheus
-  - Prometheus/Node-Exporter
-  - SMART
+  - TI/SMART
+  - TI/Tecnologia/Prometheus/Node-Exporter
+  - TI/Tecnologia/Grafana
 ---
 Para configurar a coleta de dados de disco no Grafana em um servidor Linux "cru", vamos instalar e configurar o Prometheus e o Node Exporter, que são ferramentas comuns para monitoramento de sistema, e configurá-los para enviar dados ao Grafana. Vou te guiar do começo ao fim com todos os passos.
 

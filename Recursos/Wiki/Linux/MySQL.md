@@ -1,8 +1,7 @@
 ---
 tags:
-  - Tecnologia/DBA
-  - MySQL
-  - SO/Linux
+  - TI/Tecnologia/DBA/MySQL
+  - TI/SO/Linux
 ---
 Claro! Vou te explicar como instalar o MySQL em uma distribuição Linux, em português.
 

@@ -1,7 +1,6 @@
 ---
 tags:
-  - Programação/JS
-  - Programação/TS
+  - TI/Programação/JS-TS
 ---
 # `<path>`
 

@@ -1,8 +1,8 @@
 ---
 tags:
-  - Programação/php
-  - Tecnologia/DBA
-  - SO/Linux
+  - TI/Programação/php
+  - TI/Tecnologia/DBA
+  - TI/SO/Linux
 ---
 Para instalar o **phpMyAdmin** em uma distribuição Linux (usando **Ubuntu** ou **Debian**, que são as mais comuns), você pode seguir os passos abaixo. O **phpMyAdmin** é uma interface web popular para gerenciar o MySQL via navegador, o que facilita bastante o trabalho com bancos de dados.
 
@@ -14,6 +14,14 @@ sudo apt update && sudo apt upgrade -y
 ```
 
 ### 2. **Instalar o phpMyAdmin**
+
+
+> [!atention] Atenção
+> O **phpMyAdmin** precisa do **PHP** para funcionar corretamente, e se você está vendo uma tela em branco ao acessar o **phpMyAdmin**, provavelmente o **PHP** não está configurado corretamente ou não foi instalado. Vou te guiar para corrigir isso.
+> [[php para phpmyadmin|Link da correção]]
+
+
+
 Agora, você pode instalar o **phpMyAdmin**. Para isso, execute o seguinte comando:
 
 ```bash

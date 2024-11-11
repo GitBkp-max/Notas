@@ -13,5 +13,6 @@
   "dashboard-navigator",
   "diagram-zoom-drag",
   "image-converter",
-  "canvas-node-screenshot"
+  "canvas-node-screenshot",
+  "file-explorer-note-count"
 ]

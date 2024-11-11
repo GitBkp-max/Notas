@@ -1,11 +1,9 @@
 ---
 tags:
-  - Programação/php
-  - Tecnologia/DBA
-  - SO/Linux
+  - TI/Programação/php
+  - TI/Tecnologia/DBA
+  - TI/SO/Linux
 ---
-Sim, o **phpMyAdmin** precisa do **PHP** para funcionar corretamente, e se você está vendo uma tela em branco ao acessar o **phpMyAdmin**, provavelmente o **PHP** não está configurado corretamente ou não foi instalado. Vou te guiar para corrigir isso.
-
 ### Passo 1: Verificar se o PHP está instalado
 Para o **phpMyAdmin** funcionar com o **Apache**, é necessário que o **PHP** e alguns módulos do **PHP** estejam instalados. Para verificar se o **PHP** está instalado, execute o comando:
 

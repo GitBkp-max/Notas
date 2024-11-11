@@ -1,6 +1,6 @@
 ---
 tags:
-  - Tecnologia/DBA
+  - TI/Tecnologia/DBA/SQL
 ---
 # SQL JOIN's
 

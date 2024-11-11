@@ -1,6 +1,6 @@
 ---
 tags:
-  - SO/Linux
+  - TI/SO/Linux
 ---
 Configurar um firewall no seu servidor Linux é uma prática essencial para garantir a segurança e proteger o sistema contra acessos indesejados. O `ufw` (Uncomplicated Firewall) é uma ferramenta que simplifica essa tarefa, especialmente em distribuições baseadas em Debian, como Ubuntu.
 

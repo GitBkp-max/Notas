@@ -2,7 +2,7 @@
 tags:
   - AI/GPT
 ---
-#Grafana #zabbix
+#TI/Tecnologia/Grafana fana #TI/Tecnologia/Zabbix 
 Para aprender a usar o [[Zabbix]] e o [[Grafana]] e criar dashboards de monitoramento de qualidade, há uma variedade de recursos disponíveis online que podem te ajudar. Aqui estão algumas recomendações de sites e vídeos para começar:
 
 # Zabbix

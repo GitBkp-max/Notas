@@ -1,7 +1,7 @@
 ---
 tags:
-  - Grafana
-  - Tecnologia/DBA
+  - TI/Tecnologia/DBA
+  - TI/Tecnologia/Grafana
 ---
 Para integrar o filtro de tempo do Grafana na sua consulta SQL, você precisa usar as variáveis de intervalo de tempo do Grafana, como ``$__timeFrom`` e ``$__timeTo``. Atualize sua cláusula WHERE para incluir essas variáveis. Aqui está um exemplo de como pode ficar:
 

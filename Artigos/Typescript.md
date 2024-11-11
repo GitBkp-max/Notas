@@ -1,7 +1,7 @@
 ---
 tags:
-  - Programação/TS
   - Artigos
+  - TI/Programação/JS-TS
 ---
 O TypeScript é uma linguagem **superset** do JavaScript, ou seja, tudo o que você pode fazer em JavaScript, também pode ser feito em TypeScript. A principal diferença é que o TypeScript adiciona **tipagem estática** e **recursos avançados de desenvolvimento**, como interfaces e classes, que ajudam a criar código mais seguro e escalável.
 Vamos percorrer do básico ao avançado:

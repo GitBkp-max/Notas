@@ -1,6 +1,6 @@
 ---
 tags:
-  - Programação/php
+  - TI/Programação/php
 ---
 Para informar detalhadamente os erros no console do navegador ao executar scripts PHP, você pode configurar o PHP para exibir mensagens de erro e habilitar a exibição de erros no navegador. Aqui está como fazer isso:
 

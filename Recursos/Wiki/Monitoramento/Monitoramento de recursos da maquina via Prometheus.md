@@ -1,8 +1,7 @@
 ---
 tags:
-  - Prometheus/Node-Exporter
-  - Prometheus
-  - Grafana
+  - TI/Tecnologia/Grafana
+  - TI/Tecnologia/Prometheus/Node-Exporter
 ---
 Para visualizar o uso de memória, rede e processador de uma máquina no Grafana via Prometheus, siga estas etapas:
 ### 1. **Configuração do Prometheus**
