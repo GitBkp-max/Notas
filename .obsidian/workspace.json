@@ -223,7 +223,7 @@
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
                   "centerStrength": 0.6,
-                  "repelStrength": 8.42658150898392,
+                  "repelStrength": 10.1019361159518,
                   "linkStrength": 1,
                   "linkDistance": 141,
                   "scale": 0.3462459483987099,
@@ -257,7 +257,7 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
-  "active": "44dd2121f304cd1c",
+  "active": "dec9a3c457e6434a",
   "lastOpenFiles": [
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 DEV - Atualização - Voalle - Script de coleta de erros de integração.md",
     "Áreas/Trabalho/NetTurbo/DEV/2109/2109 - Mapa da rede Datacenter + Bases.md",
