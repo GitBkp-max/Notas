@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dec9a3c457e6434a",
+            "id": "0dda39cd25604ca5",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -234,7 +234,8 @@
               "title": "Visualização em gráfico"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -257,8 +258,9 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
-  "active": "dec9a3c457e6434a",
+  "active": "3ae196bb9138d274",
   "lastOpenFiles": [
+    "Recursos/Wiki/Programação/Melhorias de commits.md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 DEV - Atualização - Voalle - Script de coleta de erros de integração.md",
     "Áreas/Trabalho/NetTurbo/DEV/2109/2109 - Mapa da rede Datacenter + Bases.md",
     "Recursos/Wiki/DBA/SQL/Dicionario de comandos sql.md",
@@ -286,7 +288,6 @@
     "Recursos/Wiki/DBA/Modelagem de Dados.md",
     "Recursos/Wiki/DBA/Conhecimentos tecnicos do DBA.md",
     "Recursos/Wiki/DBA/Backup e Recuperação.md",
-    "Recursos/Wiki/DBA/Automatização e Scripting.md",
     "Recursos/Wiki/DBA/SQL/attachments/Pasted image 20241107130539.png",
     "Áreas/Trabalho/NetTurbo/DEV/2109",
     "0New",
