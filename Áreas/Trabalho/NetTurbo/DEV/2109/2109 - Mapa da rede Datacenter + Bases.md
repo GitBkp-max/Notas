@@ -4,10 +4,7 @@ tags:
   - TI/Tecnologia/Zabbix
   - TI/Tecnologia/Grafana
 ---
-Data Solicitação:  
-Data Coleta de Requisitos:  
-Data Inicio Desenvolvimento:  
-Data Termino Desenvolvimento:
+
 Data Solicitação: 25/03/2024
 Data Coleta de informações: 25/03/2024
 Data Aprovação Plano:

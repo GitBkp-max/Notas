@@ -9,6 +9,11 @@
       "type": "local",
       "color": "#bd0000",
       "directory": "Calendario"
+    },
+    {
+      "type": "local",
+      "color": "#00bfff",
+      "directory": "Áreas/Estudos/Calendario"
     }
   ],
   "defaultCalendar": 0,

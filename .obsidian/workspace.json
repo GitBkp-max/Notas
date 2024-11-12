@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "101dbfc754116be6",
+        "id": "3e6376564689b183",
         "type": "tabs",
         "children": [
           {
-            "id": "0dda39cd25604ca5",
+            "id": "8569be7dc748b59a",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -16,8 +16,19 @@
               "icon": "search",
               "title": "Home tab"
             }
+          },
+          {
+            "id": "0f2e07bfd2005108",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,9 +227,9 @@
                   "hideUnresolved": true,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": true,
-                  "textFadeMultiplier": -3,
+                  "textFadeMultiplier": 1.1,
                   "nodeSizeMultiplier": 0.661849957374254,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
@@ -226,7 +237,7 @@
                   "repelStrength": 10.1019361159518,
                   "linkStrength": 1,
                   "linkDistance": 141,
-                  "scale": 0.3462459483987099,
+                  "scale": 0.34624594839871176,
                   "close": true
                 }
               },
@@ -258,36 +269,40 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
-  "active": "3ae196bb9138d274",
+  "active": "0f2e07bfd2005108",
   "lastOpenFiles": [
-    "Recursos/Wiki/Programação/Melhorias de commits.md",
+    "Calendario/2024-11-07 Bate-papo com Gestão de Pessoas, pela empresa Lanlink..md",
+    "Áreas/Estudos/Calendario/(Every W,T,M) Curso Java Rocktseat.md",
+    "Calendario/Estudos/(Every W,T,M) Curso Java Rockseat.md",
+    "Áreas/Estudos/Calendario",
+    "Áreas/Estudos",
+    "Calendario/Estudos/2024-11-21 encerramento Curso Java.md",
+    "Calendario/Estudos/(Every W,T,M) curso gratuito de Java da Rocketseat.md",
+    "Calendario/2024-11-06 Entrevista Técnica - Vaga técnico de suporte 2º nível pleno.md",
+    "[Modelos]/Modelo - Relatório de Testes de Software.md",
+    "[Modelos]/Nova Pagina.md",
+    "[Modelos]/Diário.md",
+    "0New/Nova nota modelo.md",
+    "0New/Sem título.md",
+    "Áreas/Trabalho/NetTurbo/DEV/2704/Alteração - 2704 - Alteração consultas Data Ativação.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 Help Desk - Fazer maquina novos colaboradores.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 DEV - 2094 - Estudo.md",
+    "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
+    "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
+    "Recursos/Wiki/Linux/Cron.md",
+    "Áreas/Trabalho/NetTurbo/DEV/2109/Mapeamento curvado com if.md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 DEV - Atualização - Voalle - Script de coleta de erros de integração.md",
-    "Áreas/Trabalho/NetTurbo/DEV/2109/2109 - Mapa da rede Datacenter + Bases.md",
-    "Recursos/Wiki/DBA/SQL/Dicionario de comandos sql.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 Help Desk - Imprimir termos .md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-07 Help Desk - 2700 - CÂMERA NOTEBOOK.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-12 DEV - 2109 Fazendo config de triggers.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-12 DEV - Reunião com Rebeca.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-13 DEV - 2704 Estudo do caso e inicio do relatorio.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-14 DEV - 2704 Detalhamento do relatorio.md",
+    "Áreas/Trabalho/NetTurbo/DEV/2704",
+    "Calendario/Estudos",
     "Recursos/Wiki/DBA/SQL/Mapa SQL.canvas",
     "Artigos/big data resumão.canvas",
-    "Áreas/Projetos/Gerenciador de Email.md",
-    "Áreas/Projetos/Coletor de info de PC.md",
-    "Áreas/Projetos/Projetos Backend JS.md",
-    "Artigos/Socket.io chat.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-05 DEV - 2094 - Estudo.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md",
-    "Artigos/MySQL.md",
-    "Artigos/Orientação a Objetos.md",
-    "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
-    "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
-    "Artigos/Prometheus.md",
-    "Artigos/Grafana.md",
-    "Recursos/GPT/Dicas para estudo de Zabbix e Grafana.md",
-    "Recursos/Wiki/DBA/Troubleshooting e Resolução de Problemas.md",
-    "Recursos/Wiki/DBA/Sistemas de Gerenciamento de Banco de Dados (SGBD).md",
-    "Recursos/Wiki/DBA/Segurança de Dados e Regulamentações de Conformidade.md",
-    "Recursos/Wiki/DBA/Segurança de Dados.md",
-    "Recursos/Wiki/DBA/Replicação e Alta Disponibilidade.md",
-    "Recursos/Wiki/DBA/Monitoramento e Otimização de Desempenho.md",
-    "Recursos/Wiki/DBA/Modelagem de Dados.md",
-    "Recursos/Wiki/DBA/Conhecimentos tecnicos do DBA.md",
-    "Recursos/Wiki/DBA/Backup e Recuperação.md",
     "Recursos/Wiki/DBA/SQL/attachments/Pasted image 20241107130539.png",
     "Áreas/Trabalho/NetTurbo/DEV/2109",
     "0New",
@@ -298,10 +313,6 @@
     "Recursos/Wiki/Programação/attachments/Pasted image 20241107103128.png",
     "Áreas/Trabalho/NetTurbo/DEV/2094",
     "0New",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias",
-    "Calendario",
-    "Áreas/Trabalho/NetTurbo/DEV",
-    "Recursos/Wiki/DBA/SQL/01_Comandos",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240609183607.png",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426202110.png",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426141607.png",

@@ -4,7 +4,7 @@ allDay: false
 startTime: 07:30
 endTime: 18:00
 date: 2024-11-11
-completed: false
+completed: 2024-11-12T09:06:52.680-03:00
 tags:
   - TI/Tecnologia/Grafana
   - TI/Tecnologia/Zabbix
