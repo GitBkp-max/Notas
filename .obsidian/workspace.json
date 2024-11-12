@@ -16,19 +16,8 @@
               "icon": "search",
               "title": "Home tab"
             }
-          },
-          {
-            "id": "0f2e07bfd2005108",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -269,7 +258,7 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
-  "active": "0f2e07bfd2005108",
+  "active": "8569be7dc748b59a",
   "lastOpenFiles": [
     "Calendario/2024-11-07 Bate-papo com Gestão de Pessoas, pela empresa Lanlink..md",
     "Áreas/Estudos/Calendario/(Every W,T,M) Curso Java Rocktseat.md",
