@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3e6376564689b183",
+        "id": "bc6a4ca9797eeb46",
         "type": "tabs",
         "children": [
           {
-            "id": "8569be7dc748b59a",
+            "id": "88b2aadeff9ccc51",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -99,6 +99,16 @@
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Visualização em gráfico"
+            }
+          },
+          {
+            "id": "efc0f29d255ba977",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
@@ -258,8 +268,14 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
-  "active": "8569be7dc748b59a",
+  "active": "88b2aadeff9ccc51",
   "lastOpenFiles": [
+    "Artigos/Socket.io chat.md",
+    "Áreas/Trabalho/NetTurbo/DEV/2704/Alteração - 2704 - Alteração consultas Data Ativação.md",
+    "Recursos/Anexos/Modelo do relatorio.webp",
+    "Recursos/Anexos/Pasted image 20241112173922.webp",
+    "Recursos/Anexos/Pasted image 20241112173758.webp",
+    "Áreas/Trabalho/NetTurbo/DEV/2109/2109 - Mapa da rede Datacenter + Bases.md",
     "Calendario/2024-11-07 Bate-papo com Gestão de Pessoas, pela empresa Lanlink..md",
     "Áreas/Estudos/Calendario/(Every W,T,M) Curso Java Rocktseat.md",
     "Calendario/Estudos/(Every W,T,M) Curso Java Rockseat.md",
@@ -273,7 +289,6 @@
     "[Modelos]/Diário.md",
     "0New/Nova nota modelo.md",
     "0New/Sem título.md",
-    "Áreas/Trabalho/NetTurbo/DEV/2704/Alteração - 2704 - Alteração consultas Data Ativação.md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 Help Desk - Fazer maquina novos colaboradores.md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 DEV - 2094 - Estudo.md",
     "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
@@ -286,8 +301,6 @@
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-12 DEV - 2109 Fazendo config de triggers.md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-12 DEV - Reunião com Rebeca.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-13 DEV - 2704 Estudo do caso e inicio do relatorio.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-14 DEV - 2704 Detalhamento do relatorio.md",
     "Áreas/Trabalho/NetTurbo/DEV/2704",
     "Calendario/Estudos",
     "Recursos/Wiki/DBA/SQL/Mapa SQL.canvas",
@@ -305,9 +318,6 @@
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240609183607.png",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426202110.png",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426141607.png",
-    "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426141427.png",
-    "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240424164850.png",
-    "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240424182201.png",
     "Sem título.canvas"
   ]
 }

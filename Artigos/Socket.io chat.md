@@ -231,7 +231,7 @@ io.on('connection', (socket) => {
 
 O resultado deve ser como o seguinte vídeo:
 
-![[zboNrGSsai.mp4]]
+![[video explicativo.mp4]]
 ## Transmissão
 
 O próximo objetivo é emitir o evento do servidor para o resto dos usuários.

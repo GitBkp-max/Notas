@@ -28,7 +28,7 @@ LEFT JOIN erp.contract_assignment_activations AS caa ON
 
 WHERE
       c.erp_code IS NULL
-      AND c.stage = 3`
+      AND c.stage = 3
 ```
 
 <span style="color:rgb(0, 176, 240)">[10:08, 07/11/2024] Otávio Rigue Voalle Dev:</span> Vale ressaltar q alguns contratos não terão esta informação:
@@ -37,3 +37,5 @@ WHERE
 - Contratos rejeitados durante a etapa de ativação
 - Alguns casos de cortesia
 - Contratos que não possuam data de aprovação
+
+![[Modelo do relatorio.webp]]
