@@ -14,6 +14,11 @@
       "type": "local",
       "color": "#00bfff",
       "directory": "Áreas/Estudos/Calendario"
+    },
+    {
+      "type": "local",
+      "color": "#ad008e",
+      "directory": "Áreas/Projetos/Calendario"
     }
   ],
   "defaultCalendar": 0,

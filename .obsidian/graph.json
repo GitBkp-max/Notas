@@ -3,9 +3,9 @@
   "search": "",
   "showTags": false,
   "showAttachments": true,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:Artigos  ",
@@ -81,6 +81,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 141,
-  "scale": 0.07986930688742297,
+  "scale": 0.02898356266428815,
   "close": true
 }

@@ -4,7 +4,7 @@ allDay: false
 startTime: 13:00
 endTime: 18:00
 date: 2024-11-13
-completed: false
+completed: true
 type: single
 tags:
   - Calendario/Trabalho/Atividades
