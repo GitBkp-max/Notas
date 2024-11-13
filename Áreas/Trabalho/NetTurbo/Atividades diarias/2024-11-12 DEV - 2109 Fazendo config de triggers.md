@@ -4,10 +4,11 @@ allDay: false
 startTime: 08:30
 endTime: 18:00
 date: 2024-11-12
-completed: false
+completed: true
 tags:
   - AI/GPT
   - TI/Programação/JS-TS
+  - Calendario/Trabalho/Atividades
 ---
 [[2109 - Mapa da rede Datacenter + Bases|Link do projeto]]
 

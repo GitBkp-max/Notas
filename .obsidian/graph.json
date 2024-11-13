@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:Artigos  ",
@@ -77,10 +77,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1.73124467178176,
   "collapse-forces": false,
-  "centerStrength": 1,
+  "centerStrength": 0.6,
   "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 500,
-  "scale": 0.11197540231339767,
+  "linkDistance": 141,
+  "scale": 0.07986930688742297,
   "close": true
 }

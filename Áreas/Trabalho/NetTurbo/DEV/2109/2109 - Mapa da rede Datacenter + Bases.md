@@ -4,6 +4,13 @@ tags:
   - TI/Tecnologia/Zabbix
   - TI/Tecnologia/Grafana
 ---
+```dataview
+table completed, date, startTime, endTime
+from #Calendario/Trabalho/Atividades 
+where contains(file.name, "2109")
+sort date asc, startTime asc
+```
+
 
 Data Solicitação: 25/03/2024
 Data Coleta de informações: 25/03/2024

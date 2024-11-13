@@ -84,7 +84,11 @@
     "TI/Tecnologia/DBA/SQL": 2,
     "TI/Programação/Node": 5,
     "TI/Programação/Node/socketio": 1,
-    "Trabalho/NetTurbo/Voalle": 1
+    "Trabalho/NetTurbo/Voalle": 1,
+    "Calendario": 27,
+    "Calendario/Trabalho": 1,
+    "Calendario/Trabalho/Atividades": 1,
+    "Calendario/Trabalho/Reuniao": 2
   },
   "_version": 3
 }

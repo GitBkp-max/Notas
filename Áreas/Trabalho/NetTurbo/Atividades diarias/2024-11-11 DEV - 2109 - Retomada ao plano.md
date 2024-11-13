@@ -4,11 +4,12 @@ allDay: false
 startTime: 07:30
 endTime: 18:00
 date: 2024-11-11
-completed: 2024-11-12T09:06:52.680-03:00
+completed: true
 tags:
   - TI/Tecnologia/Grafana
   - TI/Tecnologia/Zabbix
   - Trabalho/NetTurbo
+  - Calendario/Trabalho/Atividades
 ---
 [[2109 - Mapa da rede Datacenter + Bases|Link do projeto]]
 

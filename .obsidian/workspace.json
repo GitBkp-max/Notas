@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bc6a4ca9797eeb46",
+        "id": "1a7f02f367d46caf",
         "type": "tabs",
         "children": [
           {
-            "id": "88b2aadeff9ccc51",
+            "id": "241157ba54f37ecf",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "type": "markdown",
+              "state": {
+                "file": "Áreas/Projetos/Gerenciador de Email.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gerenciador de Email"
             }
           }
         ]
@@ -50,6 +55,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Marcadores"
+            }
+          },
+          {
+            "id": "681946b4bd3b4128",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Calendario",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
             }
           }
         ]
@@ -124,9 +146,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Áreas/Projetos/Gerenciador de Email.md"
+              },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de Gerenciador de Email"
             }
           },
           {
@@ -148,11 +172,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Áreas/Projetos/Gerenciador de Email.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Links de saída"
+              "title": "Links de saída para Gerenciador de Email"
             }
           },
           {
@@ -161,6 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Áreas/Projetos/Gerenciador de Email.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,28 +196,10 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "681946b4bd3b4128",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#Voalle",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Procurar"
+              "title": "Links inversos para Gerenciador de Email"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0abdfcaf5bea1227",
@@ -214,6 +222,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Áreas/Projetos/Gerenciador de Email.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -233,7 +242,7 @@
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
                   "centerStrength": 0.6,
-                  "repelStrength": 10.1019361159518,
+                  "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 141,
                   "scale": 0.34624594839871176,
@@ -241,7 +250,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "title": "Gráfico de Gerenciador de Email"
             }
           }
         ],
@@ -268,43 +277,44 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
-  "active": "88b2aadeff9ccc51",
+  "active": "241157ba54f37ecf",
   "lastOpenFiles": [
+    "Áreas/Projetos/E-commerce com Wordpress.md",
+    "Recursos/Wiki/Programação/Melhorias de commits.md",
+    "Áreas/Trabalho/NetTurbo/Home.md",
+    "Áreas/Financias/2024/Outubro.md",
+    "Áreas/Projetos/Projetos Backend JS.md",
+    "Áreas/Projetos/Coletor de info de PC.md",
+    "Áreas/Projetos/Gerenciador de Email.md",
     "Artigos/Socket.io chat.md",
+    "Artigos/Typescript.md",
+    "Artigos/Orientação a Objetos.md",
+    "Artigos/O que são WebSockets.md",
+    "Artigos/MySQL.md",
+    "Artigos/Java.md",
+    "Artigos/Grafana.md",
+    "Artigos/big data resumão.canvas",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-13 DEV - 2704 Documentação do relatorio.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-13 DEV - 2704 Detalhamento do relatorio.md",
     "Áreas/Trabalho/NetTurbo/DEV/2704/Alteração - 2704 - Alteração consultas Data Ativação.md",
-    "Recursos/Anexos/Modelo do relatorio.webp",
-    "Recursos/Anexos/Pasted image 20241112173922.webp",
-    "Recursos/Anexos/Pasted image 20241112173758.webp",
-    "Áreas/Trabalho/NetTurbo/DEV/2109/2109 - Mapa da rede Datacenter + Bases.md",
-    "Calendario/2024-11-07 Bate-papo com Gestão de Pessoas, pela empresa Lanlink..md",
-    "Áreas/Estudos/Calendario/(Every W,T,M) Curso Java Rocktseat.md",
-    "Calendario/Estudos/(Every W,T,M) Curso Java Rockseat.md",
-    "Áreas/Estudos/Calendario",
-    "Áreas/Estudos",
-    "Calendario/Estudos/2024-11-21 encerramento Curso Java.md",
-    "Calendario/Estudos/(Every W,T,M) curso gratuito de Java da Rocketseat.md",
-    "Calendario/2024-11-06 Entrevista Técnica - Vaga técnico de suporte 2º nível pleno.md",
-    "[Modelos]/Modelo - Relatório de Testes de Software.md",
-    "[Modelos]/Nova Pagina.md",
-    "[Modelos]/Diário.md",
-    "0New/Nova nota modelo.md",
-    "0New/Sem título.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 Help Desk - Fazer maquina novos colaboradores.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 DEV - 2094 - Estudo.md",
     "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
     "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
-    "Recursos/Wiki/Linux/Cron.md",
-    "Áreas/Trabalho/NetTurbo/DEV/2109/Mapeamento curvado com if.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 Help Desk - Fazer maquina novos colaboradores.md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 DEV - Atualização - Voalle - Script de coleta de erros de integração.md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 Help Desk - Imprimir termos .md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-07 Help Desk - 2700 - CÂMERA NOTEBOOK.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md",
+    "Áreas/Trabalho/NetTurbo/DEV/2109/2109 - Mapa da rede Datacenter + Bases.md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-12 DEV - 2109 Fazendo config de triggers.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-12 DEV - Reunião com Rebeca.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-11 DEV - 2109 - Retomada ao plano.md",
+    "Áreas/Projetos/Calendario",
+    "Recursos/Anexos/Modelo do relatorio.webp",
+    "Recursos/Anexos/Pasted image 20241112173922.webp",
+    "Recursos/Anexos/Pasted image 20241112173758.webp",
+    "Áreas/Estudos/Calendario",
+    "Áreas/Estudos",
     "Áreas/Trabalho/NetTurbo/DEV/2704",
     "Calendario/Estudos",
     "Recursos/Wiki/DBA/SQL/Mapa SQL.canvas",
-    "Artigos/big data resumão.canvas",
     "Recursos/Wiki/DBA/SQL/attachments/Pasted image 20241107130539.png",
     "Áreas/Trabalho/NetTurbo/DEV/2109",
     "0New",
@@ -314,7 +324,6 @@
     "Recursos/Wiki/Programação/attachments/01 A forked commit history.webp",
     "Recursos/Wiki/Programação/attachments/Pasted image 20241107103128.png",
     "Áreas/Trabalho/NetTurbo/DEV/2094",
-    "0New",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240609183607.png",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426202110.png",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426141607.png",
