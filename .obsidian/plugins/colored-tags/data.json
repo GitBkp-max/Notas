@@ -89,7 +89,8 @@
     "Calendario/Trabalho": 1,
     "Calendario/Trabalho/Atividades": 1,
     "Calendario/Trabalho/Reuniao": 2,
-    "Trabalho/NetTurbo/SAP": 2
+    "Trabalho/NetTurbo/SAP": 2,
+    "TI/Programação/VSCODE": 6
   },
   "_version": 3
 }

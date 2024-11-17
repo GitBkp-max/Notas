@@ -8,33 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b8f5811308cd3571",
+            "id": "47cf82f700da7f6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/GPT/Editores .md",
+                "file": "Recursos/Wiki/Programação/Melhorias de commits.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Editores"
+              "title": "Melhorias de commits"
             }
           },
           {
-            "id": "37767c5ff6f761b9",
+            "id": "e8d0a51940792e42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/GPT/Sem título.md",
+                "file": "0New/Diferença de include e require_once PHP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "Diferença de include e require_once PHP"
             }
           }
         ]
@@ -110,8 +110,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
             }
           },
           {
@@ -144,8 +144,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
             }
           }
         ],
@@ -162,10 +162,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/GPT/Editores .md"
+                "file": "Recursos/Wiki/Programação/Melhorias de commits.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de Editores"
+              "title": "Sumário de Melhorias de commits"
             }
           },
           {
@@ -214,7 +214,8 @@
               "title": "Links inversos para Sem título"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0abdfcaf5bea1227",
@@ -227,8 +228,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
             }
           },
           {
@@ -237,7 +238,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Recursos/GPT/Editores .md",
+                "file": "Recursos/Wiki/Programação/Melhorias de commits.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -265,7 +266,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Editores"
+              "title": "Gráfico de Melhorias de commits"
             }
           }
         ],
@@ -277,23 +278,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-kanban:Criar um novo quadro": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "dashboard-navigator:Open dashboard navigator": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "workspaces:Gerenciar leiautes da área de trabalho": false
+      "workspaces:Gerenciar leiautes da área de trabalho": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Criar um novo quadro": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "b8f5811308cd3571",
+  "active": "47cf82f700da7f6f",
   "lastOpenFiles": [
+    "0New/Diferença de include e require_once PHP.md",
+    "Recursos/Wiki/Programação/Melhorias de commits.md",
+    "0New/Commits para Merge.md",
+    "Recursos/Wiki/Programação/Merging vs. rebasing.md",
+    "Recursos/Wiki/Programação/Extenções para VS Code.md",
+    "Recursos/Wiki/Programação/Better Comments.md",
+    "Recursos/Anexos/Pasted image 20241116202618.webp",
+    "Recursos/GPT/Editores .md",
     "Recursos/GPT/Sem título.md",
     "Áreas/Trabalho/NetTurbo/Home.md",
     "Áreas/Trabalho/NetTurbo/Documentos/API do SAP.md",
@@ -302,7 +311,6 @@
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-13 DEV - 2704 Documentação do relatorio.md",
     "Áreas/Projetos/Gerenciador de Email.md",
     "Áreas/Projetos/E-commerce com Wordpress.md",
-    "Recursos/Wiki/Programação/Melhorias de commits.md",
     "Áreas/Financias/2024/Outubro.md",
     "Áreas/Projetos/Projetos Backend JS.md",
     "Áreas/Projetos/Coletor de info de PC.md",
@@ -316,12 +324,6 @@
     "Artigos/big data resumão.canvas",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-13 DEV - 2704 Detalhamento do relatorio.md",
     "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
-    "Áreas/Trabalho/NetTurbo/DEV/2094/Explicação do template Zabbix.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 Help Desk - Fazer maquina novos colaboradores.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 DEV - Atualização - Voalle - Script de coleta de erros de integração.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-06 Help Desk - Imprimir termos .md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-07 Help Desk - 2700 - CÂMERA NOTEBOOK.md",
-    "Áreas/Trabalho/NetTurbo/DEV/2109/2109 - Mapa da rede Datacenter + Bases.md",
     "Áreas/Projetos/Calendario",
     "Recursos/Anexos/Modelo do relatorio.webp",
     "Recursos/Anexos/Pasted image 20241112173922.webp",
@@ -341,7 +343,6 @@
     "Recursos/Wiki/Programação/attachments/Pasted image 20241107103128.png",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240609183607.png",
     "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426202110.png",
-    "_Áreas/Aa_Estudos/Santander Open Academy/Java/JAVA BASICO/anexos/Pasted image 20240426141607.png",
     "Sem título.canvas"
   ]
 }
