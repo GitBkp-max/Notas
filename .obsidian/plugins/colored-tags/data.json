@@ -90,7 +90,11 @@
     "Calendario/Trabalho/Atividades": 1,
     "Calendario/Trabalho/Reuniao": 2,
     "Trabalho/NetTurbo/SAP": 2,
-    "TI/Programação/VSCODE": 6
+    "TI/Programação/VSCODE": 6,
+    "NeverStopLearning": 28,
+    "Estudos": 29,
+    "Estudos/Rockseat": 1,
+    "TI/Tecnologia/AWS": 8
   },
   "_version": 3
 }

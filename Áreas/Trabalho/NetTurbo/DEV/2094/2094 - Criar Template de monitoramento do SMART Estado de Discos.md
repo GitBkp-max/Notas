@@ -4,15 +4,14 @@ tags:
   - TI/Tecnologia/Zabbix
   - TI/SMART
 ---
+# 2094 - Criar Template de monitoramento do SMART Estado de Discos
+
 ```dataview
 table completed, date, startTime, endTime
 from #Calendario/Trabalho/Atividades 
 where contains(file.name, "2094")
 sort date asc, startTime asc
 ```
-
-# 2094 - Criar Template de monitoramento do SMART Estado de Discos
-
 Data Solicitação: 01/07/2024
 Data Coleta de informações: 01/07/2024
 Data Aprovação Plano:

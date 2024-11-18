@@ -1,3 +1,7 @@
+---
+tags:
+  - TI/Programação/php
+---
 A principal diferença entre as funções `include` e `require_once` no PHP está relacionada à forma como elas tratam erros e ao comportamento em relação ao carregamento repetido de arquivos.
 
 Aqui está uma análise detalhada:

@@ -15,5 +15,5 @@ from "Áreas/Trabalho/NetTurbo/DEV"
 ```dataview
 table completed, date, startTime, endTime
 from #Calendario/Trabalho/Atividades 
-sort date asc, startTime asc
+sort date desc, startTime desc
 ```
