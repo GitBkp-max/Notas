@@ -7,12 +7,10 @@
   "home-tab",
   "obsidian-living-graph",
   "colored-tags",
-  "obsidian-full-calendar",
   "calendar",
   "mermaid-tools",
-  "dashboard-navigator",
   "diagram-zoom-drag",
   "image-converter",
-  "canvas-node-screenshot",
-  "file-explorer-note-count"
+  "file-explorer-note-count",
+  "obsidian-full-calendar"
 ]

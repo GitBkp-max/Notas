@@ -2,23 +2,18 @@
   "calendarSources": [
     {
       "type": "local",
-      "color": "#47b300",
+      "color": "#00940a",
       "directory": "Áreas/Trabalho/NetTurbo/Atividades diarias"
     },
     {
       "type": "local",
-      "color": "#bd0000",
+      "color": "#db0000",
       "directory": "Calendario"
     },
     {
       "type": "local",
-      "color": "#00bfff",
+      "color": "#007cf0",
       "directory": "Áreas/Estudos/Calendario"
-    },
-    {
-      "type": "local",
-      "color": "#ad008e",
-      "directory": "Áreas/Projetos/Calendario"
     }
   ],
   "defaultCalendar": 0,
@@ -27,5 +22,5 @@
     "desktop": "timeGridWeek",
     "mobile": "timeGrid3Days"
   },
-  "timeFormat24h": true
+  "timeFormat24h": false
 }
