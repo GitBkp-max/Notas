@@ -8,32 +8,53 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5f3d6ee7ccf1407c",
+            "id": "963481836e0a22d1",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "type": "markdown",
+              "state": {
+                "file": "Áreas/Trabalho/NetTurbo/Documentos/Anotações/19-11-2024 - Anotações.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "19-11-2024 - Anotações"
             }
           },
           {
-            "id": "e57cda6e56648206",
+            "id": "4de313338e5bea0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0New/Sem título.md",
+                "file": "Áreas/Projetos/Coletor de info de PC.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "Coletor de info de PC"
+            }
+          },
+          {
+            "id": "2f5381c3e2d47a7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Obisidian/Dataview - maneiras de usar.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dataview - maneiras de usar"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,16 +146,6 @@
             }
           },
           {
-            "id": "77fff7004eb6f5d1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
-            }
-          },
-          {
             "id": "efc0f29d255ba977",
             "type": "leaf",
             "state": {
@@ -143,9 +154,19 @@
               "icon": "lucide-file",
               "title": "Plugin desativado"
             }
+          },
+          {
+            "id": "77fff7004eb6f5d1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "100ddb3535a02607",
@@ -234,7 +255,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0New/Sem título.md",
+                "file": "Áreas/Trabalho/NetTurbo/Documentos/Anotações/19-11-2024 - Anotações.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -262,7 +283,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Sem título"
+              "title": "Gráfico de 19-11-2024 - Anotações"
             }
           }
         ],
@@ -289,40 +310,41 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "e57cda6e56648206",
+  "active": "963481836e0a22d1",
   "lastOpenFiles": [
-    "0New/Sem título.md",
-    "Áreas/Trabalho/NetTurbo/DEV/Relatorio de desenvolvimentos feitos no mes 10.md",
+    "Áreas/Projetos/Coletor de info de PC.md",
+    "Recursos/Obisidian/Dataview - maneiras de usar.md",
+    "Áreas/Trabalho/NetTurbo/Documentos/Anotações/19-11-2024 - Anotações.md",
+    "[Modelos]/Diário.md",
+    "Recursos/Anexos/Modelo do relatorio.webp",
+    "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-19 DEV - Melhorar Coletor de INFO.md",
+    "Recursos/GPT/Linguagens para melhorar coletor de info com Front.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-19 HELP-DESK Formatação notebook Dell.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-18 Concertando o coletor de info e melhorando ele.md",
+    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-19 HELP-DESK Turbo Docs Kassima.md",
+    "0New/19-11-2024 - Anotações^.md",
+    "Áreas/Trabalho/NetTurbo/Documentos/Anotações",
+    "Áreas/Trabalho/NetTurbo/Documentos/Relatorio de desenvolvimentos feitos no mes 10.md",
+    "0New/Ver depois.md",
     "Áreas/Trabalho/NetTurbo/Home.md",
     "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-18 DEV - Criar Desistalador Anydesk.md",
-    "Áreas/Trabalho/NetTurbo/Atividades diarias/2024-11-18 Concertando o coletor de info e melhorando ele.md",
-    "Áreas/Projetos/Coletor de info de PC.md",
     "Áreas/Projetos/E-commerce com Wordpress.md",
-    "0New/Ver depois.md",
     "0New/Nova nota modelo.md",
     "Áreas/Estudos/Calendario/(Every W,T,M) Curso Java Rocktseat.md",
     "Áreas/Estudos/Calendario/2024-11-21 Live encerramento Rockeseat.md",
     "Calendario/2024-11-15 Feriado.md",
     "Calendario/2024-11-20 Feriado.md",
-    "[Modelos]/Diário.md",
     "[Modelos]/Modelo - Relatório de Testes de Software.md",
     "[Modelos]/Nova Pagina.md",
     "Recursos/Wiki/Programação/Diferença de include e require_once PHP.md",
     "Recursos/Wiki/DBA/BKP de banco de dados.md",
     "0New/2024-11-18.md",
     "Sem título.canvas",
-    "Áreas/Trabalho/NetTurbo/DEV/2094/2094 - Criar Template de monitoramento do SMART Estado de Discos.md",
-    "Áreas/Trabalho/NetTurbo/Documentos/API do SAP.md",
-    "Artigos/MySQL.md",
-    "Recursos/Wiki/Programação/Melhorias de commits.md",
-    "0New/Commits para Merge.md",
-    "Recursos/Wiki/Programação/Merging vs. rebasing.md",
-    "Recursos/Wiki/Programação/Extenções para VS Code.md",
     "Recursos/Anexos/Pasted image 20241116202618.webp",
     "Áreas/Trabalho/NetTurbo/Documentos",
     "Artigos/big data resumão.canvas",
     "Áreas/Projetos/Calendario",
-    "Recursos/Anexos/Modelo do relatorio.webp",
     "Recursos/Anexos/Pasted image 20241112173922.webp",
     "Recursos/Anexos/Pasted image 20241112173758.webp",
     "Áreas/Estudos/Calendario",
@@ -334,7 +356,6 @@
     "Áreas/Trabalho/NetTurbo/DEV/2109",
     "0New",
     "Áreas/Financias/2024",
-    "Áreas/Financias",
     "Recursos/Wiki/Programação/attachments/1713783761847.jpeg",
     "Recursos/Wiki/Programação/attachments/01 A forked commit history.webp",
     "Recursos/Wiki/Programação/attachments/Pasted image 20241107103128.png",

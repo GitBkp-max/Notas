@@ -2,6 +2,7 @@
 tags:
   - Obsidian/Plugin
 ---
+
 # Conceitos Basicos do plugin
 
 O plugin **Dataview** do #Obsidian permite criar visualizações dinâmicas de informações a partir de notas com base em consultas semelhantes ao SQL. É ideal para organizar e filtrar dados armazenados em tags, cabeçalhos, propriedades frontmatter e até mesmo conteúdo de tabelas em suas notas. Aqui estão alguns comandos básicos para iniciar com o Dataview:

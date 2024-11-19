@@ -1,3 +1,9 @@
+---
+tags:
+  - AI/GPT
+  - Trabalho/NetTurbo
+---
+Relacionado -> [[Coletor de info de PC]]
 Quando se trata de automatizar tarefas e scripts em máquinas Windows, algumas linguagens são mais adequadas devido à facilidade de integração com o sistema operacional e suas ferramentas nativas. Aqui estão as melhores opções:
 
 ### 1. **Batch (Arquivo .bat ou .cmd)**

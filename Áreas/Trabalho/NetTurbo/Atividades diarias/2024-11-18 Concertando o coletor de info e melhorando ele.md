@@ -4,7 +4,7 @@ allDay: false
 startTime: 12:00
 endTime: 18:00
 date: 2024-11-18
-completed: false
+completed: true
 tags:
   - TI/SO/Windows
   - Calendario/Trabalho/Atividades
